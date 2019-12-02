@@ -102,7 +102,7 @@ void setupperipheral()
   // ここではスタートしない
   // vdg_drv_dac7614_start();
 
-  Serial.print("SPI Init");
+  Serial.print("SPI Init!");
 
   MsTimer2::set(1, fastintvlint);
   //Timer1.initialize(500);
