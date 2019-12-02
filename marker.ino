@@ -4,7 +4,7 @@
 /*****************************************************************************/
 /*****************************************************************************/
 #include "marker.h"
-#include "pinconf.h"
+#include "drv/pinconf.h"
 #define MKR_ST_WAIT_MKR 1
 #define MKR_ST_WAIT_JDG 2
 #define MKR_ST_WAIT_MSK 3
