@@ -21,7 +21,7 @@
 
 #ifndef     __DRV_DAC7614_H__
 #define     __DRV_DAC7614_H__
-#include    "typedef_arduino.h"
+#include    "../comm/typedef_arduino.h"
 
 #define DRV_DAC7614_CHNUM   4
 #define DRV_DAC7614_DACMIN  0

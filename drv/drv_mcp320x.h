@@ -21,7 +21,7 @@
 
 #ifndef     __DRV_MCP320x_H__
 #define     __DRV_MCP320x_H__
-#include "typedef_arduino.h"
+#include "../comm/typedef_arduino.h"
 
 #define DRV_MCP3208_CH  8   /// 8chの場合
 #define DRV_MCP3204_CH  4   /// 4chの場合
@@ -53,6 +53,7 @@ __GLOBAL    u16     u16g_drv_mcp320x_sinput(u8 ch);
 __GLOBAL    s16     s16g_drv_mcp320x_dinput(u8 ch);
 __GLOBAL    void    vdg_drv_mcp320x_end(void);
 __GLOBAL    f4      f4g_drv_mcp320x_sconvf(u16 u16t_adcdat);
+
 /** 一度使用した__GLOBAL_DEFINE__は再使用しない **/
 #ifdef      __GLOBAL_DEFINE__
 #undef      __GLOBAL_DEFINE__

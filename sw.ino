@@ -1,9 +1,9 @@
 /*****************************************************************************/
 #include "sw.h"
-#include "typedef_arduino.h"
-#include "pinconf.h"
+#include "comm/typedef_arduino.h"
+#include "drv/pinconf.h"
 
-#define SW_GO_TH    (u16)(100)     /*  */
+#define SWORG_GO_TH    (u16)(100)     /*  */
 #define SW_ESC_TH   (u16)(520)     /*  */
 #define SW_UP_TH    (u16)(700)     /* */
 #define SW_DOWN_TH  (u16)(800)    /*  */
@@ -27,11 +27,11 @@ void swinit()
 {
     for (int cnt = 0; cnt < SW_BUFFSIZE; cnt++)
     {
-        swbff[cnt] = SW_NON;
+        swbff[cnt] = SWORG_NON;
     }
     swedge = SW_EDGE_NON;
-    swnow = SW_NON;
-    swold = SW_NON;
+    swnow = SWORG_NON;
+    swold = SWORG_NON;
     sw_intvcnt = 0;
 }
 
@@ -97,7 +97,7 @@ void swintr()
             swnow = swbff[0];
             if (swold != swnow)
             {
-                if (swnow == SW_NON)
+                if (swnow == SWORG_NON)
                 {
                     swedge = SW_EDGE_DOWN;
                 }
@@ -120,23 +120,23 @@ byte swreadad(void)
     adsw = analogRead(PNCF_UI_ADSW);
     if ( (s16c_sac_ui_sw_GO_THL <= adsw) && (adsw < s16c_sac_ui_sw_GO_THH) )
     {
-        return SW_GO;
+        return SWORG_GO;
     }
     else if ( (s16c_sac_ui_sw_ESC_THL < adsw) && (adsw < s16c_sac_ui_sw_ESC_THH) )
     {
-        return SW_ESC;
+        return SWORG_ESC;
     }
     else if ( (s16c_sac_ui_sw_UP_THL < adsw) && (adsw < s16c_sac_ui_sw_UP_THH) )
     {
-        return SW_UP;
+        return SWORG_UP;
     }
     else if ( (s16c_sac_ui_sw_DOWN_THL < adsw) && (adsw < s16c_sac_ui_sw_DOWN_THH) )
     {
-        return SW_DOWN;
+        return SWORG_DOWN;
     }
     else
     {
-        return SW_NON;
+        return SWORG_NON;
     }
 }
 

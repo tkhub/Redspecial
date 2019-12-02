@@ -25,16 +25,15 @@
 /*****************************************************************************/
 /*****************************************************************************/
 #include <Arduino.h>
-#include <Wire.h>
-#include "typedef_arduino.h"
-#include "pinconf.h"
-#include "drv_dac7614.h"
-#include "drv_mcp320x.h"
-#include "sac_sys.h"
-#include "sac_ui.h"
-#include "sac_ctrl.h"
+#include "../comm/typedef_arduino.h"
+#include "../drv/pinconf.h"
+#include "../drv/drv_dac7614.h"
+#include "../drv/drv_mcp320x.h"
+#include "../sac/sac_ui.h"
+#include "../sac/sac_ctrl.h"
+#include "../sac/sac_sys.h"
 #include "sys_intr.h"
-#include "app_ui.h"
+#include "../apl/apl_ui.h"
 
 /*****************************************************************************/
 /*****************************************************************************/

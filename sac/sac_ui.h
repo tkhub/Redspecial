@@ -21,7 +21,7 @@
 
 #ifndef     __SAC_UI_H__
 #define     __SAC_UI_H__
-#include "typedef_arduino.h"
+#include "../comm/typedef_arduino.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -60,9 +60,10 @@ __GLOBAL    void            vdg_sac_ui_tone_piroD(void);
 __GLOBAL    void            vdg_sac_ui_tone_pi(void);
 __GLOBAL    void            vdg_sac_ui_tone_WRN(void);
 
-/** 一度使用した__GLOBAL_DEFINE__は再使用しない **/
+/** 一度使用した__GLOBAL_DEFINE__, __GLOBAL は再使用しない **/
 #ifdef      __GLOBAL_DEFINE__
 #undef      __GLOBAL_DEFINE__
 #endif /* __GLOBAL_DEFINE__ */
 #undef     __GLOBAL
+
 #endif    /*  __SAC_UI_H__ */

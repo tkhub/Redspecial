@@ -1,11 +1,11 @@
 #ifndef _SW_H_
 #define _SW_H_
 
-#define SW_UP   3
-#define SW_DOWN 4
-#define SW_GO   1
-#define SW_ESC  2 
-#define SW_NON  0
+#define SWORG_UP   3
+#define SWORG_DOWN 4
+#define SWORG_GO   1
+#define SWORG_ESC  2 
+#define SWORG_NON  0
 
 #define SW_EDGE_NON 0
 #define SW_EDGE_UP 1

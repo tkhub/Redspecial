@@ -21,7 +21,7 @@
 
 #ifndef     __SAC_CTRL_H__
 #define     __SAC_CTRL_H__
-#include "typedef_arduino.h"
+#include "../comm/typedef_arduino.h"
 
 #define SAC_CTRL_AVGSPD    0
 #define SAC_CTRL_LEFTSPD   1
@@ -52,10 +52,9 @@ __GLOBAL bool   big_sac_ctrl_glmkr(void);
 __GLOBAL void   vdg_sac_ctrl_trgtspd_Setf(f4 f4t_speed);
 __GLOBAL f4     f4g_sac_ctrl_speedRead(u8 u8t_ch);
 
-/** 一度使用した__GLOBAL_DEFINE__は再使用しない **/
+/** 一度使用した__GLOBAL_DEFINE__, __GLOBALは再使用しない **/
 #ifdef      __GLOBAL_DEFINE__
 #undef      __GLOBAL_DEFINE__
 #endif /* __GLOBAL_DEFINE__ */
 #undef     __GLOBAL
-
 #endif    /*  __SAC_CTRL_H__ */ 
