@@ -141,9 +141,199 @@ void   vdg_sac_ctrl_answpid_EN(void)
     digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_EN);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
 void   vdg_sac_ctrl_answpid_DI(void)
 {
     digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void   vdg_sac_ctrl_answpid_DI(void)
+{
+    digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_DI);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
+}
+
+void   vdg_sac_ctrl_answmtr_EN(void)
+{
+    digitalWrite(PNCF_CTRL_ENMTR, PNCF_CTRL_ENMTR_EN);
 }
 
 void   vdg_sac_ctrl_answmtr_EN(void)
