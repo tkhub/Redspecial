@@ -19,8 +19,8 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
-#ifndef     __LAYNAME_MODNAME_H__
-#define     __LAYNAME_MODNAME_H__
+#ifndef     __APL_UI_H__
+#define     __APL_UI_H__
 
 #include "../comm/typedef_arduino.h"
 
@@ -57,6 +57,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 #define     APP_UI_SW_QUE_LEN   8
 
+/////////////////////////////////////////////////////////////////////////////////
+/// @def        APP_UI_BF_LEN 
+/// @brief      スイッチ監視用のバッファ
+///
+////////////////////////////////////////////////////////////////////////////////
+#define     APP_UI_SW_LOG_LEN 64
+
+
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -92,7 +100,11 @@ typedef enum
     APP_UI_SW_GO_NON,
     APP_UI_SW_ESC_NON,
     APP_UI_SW_UP_NON,
-    APP_UI_SW_DOWN_NON
+    APP_UI_SW_DOWN_NON,
+    APP_UI_SW_GO_LONG,
+    APP_UI_SW_ESC_LONG,
+    APP_UI_SW_UP_LONG,
+    APP_UI_SW_DOWN_LONG
 } en_app_ui_sw_event;
 
 /**
@@ -127,7 +139,7 @@ __GLOBAL u16    u16g_layname_modname_ramname
 /*****************************************************************************/
 /*****************************************************************************/
 __GLOBAL void vdg_app_ui_intr(void);
-__GLOBAL void vdg_app_ui_Setup(void);
+__GLOBAL void vdg_app_ui_setup(void);
 __GLOBAL en_app_ui_sw_event eng_app_ui_swEvent(void);
 
 
@@ -150,5 +162,5 @@ __GLOBAL en_app_ui_sw_event eng_app_ui_swEvent(void);
 #endif /* __GLOBAL_DEFINE__ */
 #undef      __GLOBAL
 
-#endif    /*  __LAYNAME_MODNAME_H__ */
+#endif    /*  __APL_UI_H__ */
 /*********************EOF******************************************************/
