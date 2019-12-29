@@ -41,6 +41,7 @@
 #define     __GLOBAL    extern
 #endif      /* __GLOBAL_DEFINE__ */
 
+__GLOBAL void   vdg_sac_ctrl_setup(void);
 __GLOBAL void   vdg_sac_ctrl_answpid_EN(void);
 __GLOBAL void   vdg_sac_ctrl_answpid_DI(void);
 __GLOBAL void   vdg_sac_ctrl_answmtr_EN(void);

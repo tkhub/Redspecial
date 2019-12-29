@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-/// @file           ファイル名.c
+/// @file           sys_boot.c
 /// @brief          ファイルの説明
 /// @author         作成者
 /// @date           ファイル作成年月日
@@ -25,14 +25,22 @@
 /*****************************************************************************/
 /*****************************************************************************/
 #include <Arduino.h>
-#include "../sac/sac_ui.h"
+#include "comm/typedef_arduino.h"
+#include "drv/pinconf.h"
+#include "drv/drv_dac7614.h"
+#include "drv/drv_mcp320x.h"
+#include "sac/sac_ui.h"
+#include "sac/sac_ctrl.h"
+#include "sac/sac_sys.h"
+#include "sys_intr.h"
+#include "apl/apl_ui.h"
 
 /*****************************************************************************/
 /*****************************************************************************/
 /*  自ヘッダファイルのインクルード                                            */
 #define __GLOBAL_DEFINE__
 /*****************************************************************************/
-#include "apl_ui.h"
+#include "sys_boot.h"
 
 
 /*****************************************************************************/
@@ -77,11 +85,7 @@
 /// @brief      構造体の説明
 ///
 ////////////////////////////////////////////////////////////////////////////////
-typedef struct
-{
-    en_sac_ui_sw    en_swst;   /// スイッチ状態
-    u16             u16_time;
-}st_apl_ui_swlog;
+
 
 ////////////////////////////////////////////////////////////////////////////////
 /// @enum       enum型名
@@ -94,47 +98,18 @@ typedef struct
 /* 変数定義 */
 /*****************************************************************************/
 /*****************************************************************************/
-////////////////////////////////////////////////////////////////////////////////
-/// @var    sts_apl_ui_swlog
-/// @brief  SWの状態と持続時間を記録
-////////////////////////////////////////////////////////////////////////////////
-st_apl_ui_swlog sts_apl_ui_swlog[APP_UI_SW_LOG_LEN];
 
 ////////////////////////////////////////////////////////////////////////////////
-/// @var        ens_app_ui_swBuffe
-/// @brief      Buffer of SW
+/// @var        変数名
+/// @brief      変数の説明
 ///
 ////////////////////////////////////////////////////////////////////////////////
-volatile en_sac_ui_sw ens_app_ui_swBuffer[APP_UI_SW_BF_LEN];
-
-////////////////////////////////////////////////////////////////////////////////
-/// @var        ens_app_ui_swNow
-/// @brief      Buffer of SW
-///
-////////////////////////////////////////////////////////////////////////////////
-volatile en_sac_ui_sw ens_app_ui_swNow;
-
-////////////////////////////////////////////////////////////////////////////////
-/// @var        ens_app_ui_swLast
-/// @brief      Last status  of SW
-///
-////////////////////////////////////////////////////////////////////////////////
-volatile en_sac_ui_sw ens_app_ui_swLast;
-
-////////////////////////////////////////////////////////////////////////////////
-/// @var        ens_app_ui_swLtch
-/// @brief      Latch information of sw
-///
-////////////////////////////////////////////////////////////////////////////////
-volatile en_app_ui_sw_event ens_app_ui_swLtch;
 
 /*****************************************************************************/
 /*****************************************************************************/
 /* 内部関数宣言 */
 /*****************************************************************************/
 /*****************************************************************************/
-void vds_app_ui_swIntr(void);
-
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -165,68 +140,170 @@ void vds_app_ui_swIntr(void);
 ///                 ファイルに履歴などを明記する場合はここへ書き込む
 ///
 ////////////////////////////////////////////////////////////////////////////////
-void vdg_app_ui_Setup(void)
+void vdg_sys_boot_basicInit(void)
 {
-    for (int cnt = 0; cnt < APP_UI_SW_BF_LEN; cnt++)
+///    vdg_sac_ctrl_setup();
+///    vdg_sac_ui_setup();
+    pinMode(PNCF_UI_GREENLED, OUTPUT);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void vdg_sys_boot_mainInit(void)
+{
+    u16 agndvol;
+    pinMode(PNCF_CTRL_ENIRLED, OUTPUT);
+    vdg_sac_ctrl_irldosc_DI();
+    pinMode(PNCF_UI_SP, OUTPUT);
+
+    agndvol = u16g_drv_dac7614_convf(2.50);
+    vdg_drv_dac7614_setup();
+    vdg_drv_dac7614_start();
+    vdg_drv_dac7614_output(PNCF_DAC7614_SPDTRGT, agndvol);
+    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_STRTRGT, agndvol);
+    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IL, agndvol);
+    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IR, agndvol);
+    vdg_drv_dac7614_end();
+
+    vdg_drv_mcp320x_setup(DRV_MCP3208_CH);
+
+    //Serial.begin(9600);
+    //Serial.print("# RedSpecial BOOT !!");
+    vdg_sys_intr_fastintv_setup();
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void vdg_sys_boot_aplInit(void)
+{
+///    vdg_app_ui_Setup();
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+void vdg_sys_boot_chkstp(void)
+{
+    en_sac_sys_btryst  ent_btrst;
+    ent_btrst = eng_sac_sys_btrychk();
+    
+    if (ent_btrst == EMPTYVOLTAGE)
     {
-        ens_app_ui_swBuffer[cnt] = SW_NON;
+        while(1)
+        {
+            digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+            digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+            digitalWrite(PNCF_UI_WTLED, HIGH);
+            vdg_sac_ui_tone_WRN();
+            delay(100);
+            digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+            digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+            digitalWrite(PNCF_UI_WTLED, LOW);
+            vdg_sac_ui_tone_WRN();
+            delay(100);
+            Serial.print("EMPTY BATTERY!!");
+        }
     }
-    ens_app_ui_swNow = SW_NON;
-    ens_app_ui_swLast = SW_NON;
-}
-
-////////////////////////////////////////////////////////////////////////////////
-/// @brief          関数の説明
-/// @fn             関数名
-/// @param[in]      引数(参照専用)
-/// @param[out]     引数(ポインタ引数等)
-/// @return         関数戻り値の説明
-/// @author         関数作成者名
-/// @date           関数作成年月日
-/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
-/// @note           関数に備考などを明記する場合はここへ書き込む
-/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
-/// @par            History
-///                 ファイルに履歴などを明記する場合はここへ書き込む
-///
-////////////////////////////////////////////////////////////////////////////////
-void vdg_app_ui_intr(void)
-{
-    vds_app_ui_swIntr();
-}
-
-
-////////////////////////////////////////////////////////////////////////////////
-/// @brief          関数の説明
-/// @fn             関数名
-/// @param[in]      引数(参照専用)
-/// @param[out]     引数(ポインタ引数等)
-/// @return         関数戻り値の説明
-/// @author         関数作成者名
-/// @date           関数作成年月日
-/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
-/// @note           関数に備考などを明記する場合はここへ書き込む
-/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
-/// @par            History
-///                 ファイルに履歴などを明記する場合はここへ書き込む
-///
-////////////////////////////////////////////////////////////////////////////////
-en_app_ui_sw_event eng_app_ui_swEvent(void)
-{
-    en_app_ui_sw_event ent_event = ens_app_ui_swLtch;
-    if (ent_event == APP_UI_SW_NON)
+    else if (ent_btrst == LOWVOLTAGE)
     {
-        return APP_UI_SW_NON;
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+        digitalWrite(PNCF_UI_WTLED, HIGH);
+        vdg_sac_ui_tone_piroD();
+        delay(100);
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+        digitalWrite(PNCF_UI_WTLED, LOW);
+        vdg_sac_ui_tone_piroD();
+        delay(100);
+        Serial.print("LOW BATTERY!!");
+    }
+    else if (ent_btrst == MIDVOLTAGE)
+    {
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+        digitalWrite(PNCF_UI_WTLED, HIGH);
+        vdg_sac_ui_tone_piroU();
+        delay(100);
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+        digitalWrite(PNCF_UI_WTLED, LOW);
+        vdg_sac_ui_tone_piroU();
+        delay(100);
+        Serial.print("MID BATTERY");
+    }
+    else if (ent_btrst == FULLVOLTAGE)
+    {
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+        digitalWrite(PNCF_UI_WTLED, HIGH);
+        vdg_sac_ui_tone_pi();
+        delay(50);
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+        digitalWrite(PNCF_UI_WTLED, LOW);
+        vdg_sac_ui_tone_pi();
+        delay(50);
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+        digitalWrite(PNCF_UI_WTLED, HIGH);
+        vdg_sac_ui_tone_pi();
+        delay(50);
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+        digitalWrite(PNCF_UI_WTLED, LOW);
+        vdg_sac_ui_tone_pi();
+        delay(50);  
+        Serial.print("FULL BATTERY");
     }
     else
     {
-        noInterrupts();
-        ens_app_ui_swLtch = APP_UI_SW_NON;
-        interrupts();
-        return ent_event;
+        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+        digitalWrite(PNCF_UI_WTLED, HIGH);
+        tone(PNCF_UI_SP, 4000);
+        while(1){/** NOP **/}
     }
+    
 }
-
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -236,7 +313,7 @@ en_app_ui_sw_event eng_app_ui_swEvent(void)
 
 ////////////////////////////////////////////////////////////////////////////////
 /// @brief          関数の説明
-/// @fn             void vds_app_ui_swIntr(void)
+/// @fn             関数名
 /// @param[in]      引数(参照専用)
 /// @param[out]     引数(ポインタ引数等)
 /// @return         関数戻り値の説明
@@ -249,35 +326,5 @@ en_app_ui_sw_event eng_app_ui_swEvent(void)
 ///                 ファイルに履歴などを明記する場合はここへ書き込む
 ///
 ////////////////////////////////////////////////////////////////////////////////
-void vds_app_ui_swIntr(void)
-{
-    ens_app_ui_swNow = eng_sac_ui_sw();
-    ens_app_ui_swBuffer[0] = ens_app_ui_swNow;
-    for (int cnt = 1; cnt < (APP_UI_SW_BF_LEN - 1); cnt++)
-    {
-        ens_app_ui_swBuffer[cnt + 1] = ens_app_ui_swBuffer[cnt];
-    }
-    ens_app_ui_swLast = ens_app_ui_swBuffer[1];
-
-    if (ens_app_ui_swLast ==  SW_NON)
-    {
-        if (ens_app_ui_swNow == SW_GO)
-        {
-            ens_app_ui_swLtch = APP_UI_SW_NON_GO;
-        }
-        else if (ens_app_ui_swNow == SW_ESC)
-        {
-            ens_app_ui_swLtch = APP_UI_SW_NON_ESC;
-        }
-        else if (ens_app_ui_swNow == SW_UP)
-        {
-            ens_app_ui_swLtch = APP_UI_SW_NON_UP;
-        }
-        else if (ens_app_ui_swNow == SW_DOWN)
-        {
-            ens_app_ui_swLtch = APP_UI_SW_NON_DOWN;
-        }
-    }
-}
 
 /*********************EOF******************************************************/

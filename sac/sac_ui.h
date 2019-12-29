@@ -54,7 +54,11 @@ typedef enum {SW_NON, SW_GO, SW_ESC, SW_UP, SW_DOWN} en_sac_ui_sw;
 __GLOBAL void   vdg_layname_modname_funcname(void)
 __GLOBAL u16    u16g_layname_modname_ramname
 */
+__GLOBAL    void            vdg_sac_ui_setup(void);
 __GLOBAL    en_sac_ui_sw    eng_sac_ui_sw(void);
+__GLOBAL    void            vdg_sac_ui_greenled(u8 onoff);
+__GLOBAL    void            vdg_sac_ui_redled(u8 onoff);
+__GLOBAL    void            vdg_sac_ui_whled(u8 duty);
 __GLOBAL    void            vdg_sac_ui_tone_piroU(void);
 __GLOBAL    void            vdg_sac_ui_tone_piroD(void);
 __GLOBAL    void            vdg_sac_ui_tone_pi(void);

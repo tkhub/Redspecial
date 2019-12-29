@@ -136,6 +136,32 @@ Cf4 f4c_sac_ctrl_tgtspdGain = -0.394945;
 ///                 ファイルに履歴などを明記する場合はここへ書き込む
 ///
 ////////////////////////////////////////////////////////////////////////////////
+void vdg_sac_ctrl_setup(void)
+{
+    pinMode(PNCF_CTRL_ENMTR, OUTPUT);
+    pinMode(PNCF_CTRL_ENPID, OUTPUT);
+    pinMode(PNCF_CTRL_ENIRLED, OUTPUT);
+
+    vdg_sac_ctrl_answmtr_DI();
+    vdg_sac_ctrl_answpid_DI();
+    vdg_sac_ctrl_irldosc_DI();
+}
+
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
 void   vdg_sac_ctrl_answpid_EN(void)
 {
     digitalWrite(PNCF_CTRL_ENPID, PNCF_CTRL_ENPID_EN);
