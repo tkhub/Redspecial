@@ -1,10 +1,10 @@
 ////////////////////////////////////////////////////////////////////////////////
-/// @file           drv_dac7614.c
-/// @brief          dac7614の初期化・出力の実行
+/// @file           ファイル名.c
+/// @brief          ファイルの説明
 /// @author         作成者
 /// @date           ファイル作成年月日
-/// $Version:       1.00$
-/// $Revision:      1.00$
+/// $Version:       ファイルバージョン$
+/// $Revision:      ファイルリビジョン$
 /// @note           ファイルに備考などを明記する場合はここへ書き込む
 /// @attention      ファイルに注意書きなどを明記する場合はここへ書き込む
 /// @par            History
@@ -24,17 +24,24 @@
 /*  ヘッダファイルのインクルード                                              */
 /*****************************************************************************/
 /*****************************************************************************/
-#include <SPI.h>
-#include "pinconf.h"
-#include <typedef.h>
+#include "../comm/typedef.h"
 
+////////////////////////////////////////////////////////////////////////////////
+/// @def    __TERMSIM_DEBUG__
+/// @brief  PC上でのシミュレーションで有効にする。
+////////////////////////////////////////////////////////////////////////////////
+// #define __TERMSIM_DEBUG__
+
+#ifdef __TERMSIM_DEBUG__
+#include <stdio.h>
+#endif /*__TERMSIM_DEBUG__*/
 
 /*****************************************************************************/
 /*****************************************************************************/
 /*  自ヘッダファイルのインクルード                                            */
 #define __GLOBAL_DEFINE__
 /*****************************************************************************/
-#include "drv_dac7614.h"
+#include "lineint.h"
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -93,11 +100,10 @@
 /*****************************************************************************/
 
 ////////////////////////////////////////////////////////////////////////////////
-/// @var        dac7614SPISetting
-/// @brief      DAC7614SPI設定
+/// @var        変数名
+/// @brief      変数の説明
 ///
 ////////////////////////////////////////////////////////////////////////////////
-SPISettings dac7614SPISetting(1000000, MSBFIRST, SPI_MODE3);
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -134,131 +140,64 @@ SPISettings dac7614SPISetting(1000000, MSBFIRST, SPI_MODE3);
 ///                 ファイルに履歴などを明記する場合はここへ書き込む
 ///
 ////////////////////////////////////////////////////////////////////////////////
-
-/** 
-* @fn       void vdg_drv_dac7614_setup(void)
-* @brief    Init DAC7614 IC 
-* @return   void
-*/
-void vdg_drv_dac7614_setup(void)
+f4 f4g_lib_intrp1dim(const s4 s4t_x, const s4* s4t_tbl, const u2 u2t_tblhlflen)
 {
-    // SPIの初期化は全体に影響する変更点のためここに隠蔽できない
-    // IOピンは占有資源のためここで宣言
-    pinMode(PNCF_DAC7614_DACCS, OUTPUT);
-     
-    /// CSをネゲート
-    digitalWrite(PNCF_DAC7614_DACCS, PNCF_DAC7614_DACCS_NEGATE);
-
-    /// LOADDACをネゲート
-    digitalWrite(PNCF_DAC7614_LOADDAC, PNCF_DAC7614_LOADDAC_NEGATE);
-
-pinMode(PNCF_DAC7614_LOADDAC, OUTPUT);
-}
-
-void vdg_drv_dac7614_start(void)
-{
-    /* SPI初期化 */
-    SPI.begin();
-    /* MSB FAST */
-    SPI.setBitOrder(MSBFIRST);
-    /* 1MHz CLK */
-    SPI.setClockDivider(SPI_CLOCK_DIV16);
-    /* クロック負パルス 立ち上がりエッジサンプリング */
-    SPI.setDataMode(SPI_MODE3);
-    
-    /// CSをネゲート
-    digitalWrite(PNCF_DAC7614_DACCS, PNCF_DAC7614_DACCS_NEGATE);
-
-    /// LOADDACをネゲート
-    digitalWrite(PNCF_DAC7614_LOADDAC, PNCF_DAC7614_LOADDAC_NEGATE);
-
-//    SPI.beginTransaction(dac7614SPISetting);
-}
-
-/** 
-* @fn       void vdg_dac7614_output(u8 ch, u16 outputdat)
-* @brief    Init DAC7614 IC 
-* @return   void
-*/
-void vdg_drv_dac7614_output(u8 u8t_ch, u16 u16t_outputdat)
-{
-    u8  ch_tmp;
-    u16  dat_tmp = 0;
-    u8  shortdat = 0;
-    if (u8t_ch < DRV_DAC7614_CHNUM)
+    u4 u4t_search;
+    if      (s4t_x < s4t_tbl[0])
     {
-        //  正しいチャンネルのため受け取る
-        ch_tmp = u8t_ch;
+        return s4t_tbl[u2t_tblhlflen];
+    }
+    else if (s4t_tbl[u2t_tblhlflen -1] < s4t_x)
+    {
+        return s4t_tbl[(u2t_tblhlflen * 2)- 1];
     }
     else
     {
-        //  不正なチャンネル指定のため何もしない
-        return ;
+        for (u4t_search = 1; u4t_search < u2t_tblhlflen; u4t_search++)
+        {
+            if (s4t_tbl[u4t_search] >= s4t_x)
+            {
+                break;
+            }
+        }
+        return  (float)s4t_tbl[u4t_search + u2t_tblhlflen -1] 
+                + (((s4t_tbl[u4t_search + u2t_tblhlflen] - s4t_tbl[u4t_search + u2t_tblhlflen -1]) * (s4t_x - s4t_tbl[u4t_search - 1]) ) 
+                / (s4t_tbl[u4t_search] - s4t_tbl[u4t_search - 1]));
     }
-    if (DRV_DAC7614_DACMAX < u16t_outputdat)
-    {
-        dat_tmp  = DRV_DAC7614_DACMAX -1;
-    }
-    else
-    {
-        dat_tmp = u16t_outputdat;
-    }
-    
-
-    // CSアサート
-    digitalWrite(PNCF_DAC7614_DACCS, PNCF_DAC7614_DACCS_ASSERT);
-    // LOADDACネゲート
-    digitalWrite(PNCF_DAC7614_LOADDAC, PNCF_DAC7614_LOADDAC_NEGATE);
-    switch(ch_tmp)
-    {
-        case 0:
-            dat_tmp = dat_tmp | 0x0000;
-        break;
-
-        case 1:
-            dat_tmp = dat_tmp | 0x4000;
-        break;
-
-        case 2:
-            dat_tmp = dat_tmp | 0x8000;
-        break;
-
-        case 3:
-            dat_tmp = dat_tmp | 0xC000;
-        break;
-    }
-    shortdat = (dat_tmp >> 8) & 0x00FF;
-    SPI.transfer(shortdat);
-    shortdat = dat_tmp & 0x00FF;
-    SPI.transfer(shortdat);
-    //  CSネゲート
-    digitalWrite(PNCF_DAC7614_DACCS, PNCF_DAC7614_DACCS_NEGATE);
-    //  LOADDACアサート
-    digitalWrite(PNCF_DAC7614_LOADDAC, PNCF_DAC7614_LOADDAC_ASSERT);
-    // LOADDACネゲート
-    digitalWrite(PNCF_DAC7614_LOADDAC, PNCF_DAC7614_LOADDAC_NEGATE);
 }
 
-/** 
-* @fn       void vdg_drv_dac7614_end(void)
-* @brief    Init DAC7614 IC 
-* @return   void
-*/
-void vdg_drv_dac7614_end(void)
+#ifdef __TERMSIM_DEBUG__
+////////////////////////////////////////////////////////////////////////////////
+/// @brief          関数の説明
+/// @fn             関数名
+/// @param[in]      引数(参照専用)
+/// @param[out]     引数(ポインタ引数等)
+/// @return         関数戻り値の説明
+/// @author         関数作成者名
+/// @date           関数作成年月日
+/// @version        関数やソースにバージョンを明記する場合はここへ書き込む
+/// @note           関数に備考などを明記する場合はここへ書き込む
+/// @attention      関数に注意書きなどを明記する場合はここへ書き込む
+/// @par            History
+///                 ファイルに履歴などを明記する場合はここへ書き込む
+///
+////////////////////////////////////////////////////////////////////////////////
+
+int main(void)
 {
-//    SPI.endTransaction();
-    SPI.end();
-}
+    s4 x;
+    s4 tbl[]={
+        -10, 0, 10, 20, 30,
+        -50, -20, 100, 200, 300
+    };
+    for (x = -15; x < 40; x += 5)
+    {
+        printf("%d,%f\n",x,f4g_lib_intrp1dim(x, tbl, (sizeof(tbl)/sizeof(tbl[0]) / 2)) );
+    }
 
-u16 u16g_drv_dac7614_convf(f4 f4t_voltage)
-{
-    ///    Vdac = DRV_DAC7614_VREF_L + N * ((DRV_DAC7614_VREF_H - DRV_DAC7614_VREF_L) / 4096)
-    ///    Vdac - DRV_DAC7614_VREF_L =  N * ((DRV_DAC7614_VREF_H - DRV_DAC7614_VREF_L) / 4096)
-    ///    N = (Vdac - DRV_DAC7614_VREF_L) /  ((DRV_DAC7614_VREF_H - DRV_DAC7614_VREF_L) / 4096)
-    return  ((f4t_voltage  - DRV_DAC7614_VREF_L) *  DRV_DAC7614_CONV_A * ( 4096 / (DRV_DAC7614_VREF_H - DRV_DAC7614_VREF_L) ) 
-                                            + DRV_DAC7614_CONV_B);
+    return 0;
 }
-
+#endif /*  __TERMSIM_DEBUG__ */
 /*****************************************************************************/
 /*****************************************************************************/
 /* 内部関数定義 */

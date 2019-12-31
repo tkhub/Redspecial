@@ -25,19 +25,15 @@
 /*****************************************************************************/
 /*****************************************************************************/
 #include <Arduino.h>
-#include "typedef_arduino.h"
-#include "sac_ui.h"
-#include "sac_sys.h"
-#include "app_ui.h"
+#include "lib/comm/typedef.h"
 
-#include "sys_intr.h"
 
 /*****************************************************************************/
 /*****************************************************************************/
 /*  自ヘッダファイルのインクルード                                            */
 #define __GLOBAL_DEFINE__
 /*****************************************************************************/
-#include "sys_loop.h"
+#include "loop.h"
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -138,27 +134,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 void vdg_sys_loop_mainloop(void)
 {
-    Serial.println(eng_sac_ui_sw());
-    Serial.println(s16g_sac_sys_pwrtempRead());
-    Serial.println(u16_testcnt);
-    if (eng_app_ui_swEvent() == APP_UI_SW_NON_GO)
-    {
-        vdg_sac_ui_tone_pi();
-    }
-    else if (eng_app_ui_swEvent() == APP_UI_SW_NON_ESC)
-    {
-        vdg_sac_ui_tone_WRN();
-    }
-    else if (eng_app_ui_swEvent() == APP_UI_SW_NON_UP)
-    {
-        vdg_sac_ui_tone_piroU();
-    }
-    else if (eng_app_ui_swEvent() == APP_UI_SW_NON_DOWN)
-    {
-        vdg_sac_ui_tone_piroD();
-    }
-}
 
+}
 
 void vdg_sys_loop_test(void)
 {

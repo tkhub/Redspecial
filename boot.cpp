@@ -25,22 +25,13 @@
 /*****************************************************************************/
 /*****************************************************************************/
 #include <Arduino.h>
-#include "comm/typedef_arduino.h"
-#include "drv/pinconf.h"
-#include "drv/drv_dac7614.h"
-#include "drv/drv_mcp320x.h"
-#include "sac/sac_ui.h"
-#include "sac/sac_ctrl.h"
-#include "sac/sac_sys.h"
-#include "sys_intr.h"
-#include "apl/apl_ui.h"
 
 /*****************************************************************************/
 /*****************************************************************************/
 /*  自ヘッダファイルのインクルード                                            */
 #define __GLOBAL_DEFINE__
 /*****************************************************************************/
-#include "sys_boot.h"
+#include "boot.h"
 
 
 /*****************************************************************************/
@@ -142,9 +133,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 void vdg_sys_boot_basicInit(void)
 {
-///    vdg_sac_ctrl_setup();
-///    vdg_sac_ui_setup();
-    pinMode(PNCF_UI_GREENLED, OUTPUT);
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -164,25 +152,25 @@ void vdg_sys_boot_basicInit(void)
 ////////////////////////////////////////////////////////////////////////////////
 void vdg_sys_boot_mainInit(void)
 {
-    u16 agndvol;
-    pinMode(PNCF_CTRL_ENIRLED, OUTPUT);
-    vdg_sac_ctrl_irldosc_DI();
-    pinMode(PNCF_UI_SP, OUTPUT);
+    // u16 agndvol;
+    // pinMode(PNCF_CTRL_ENIRLED, OUTPUT);
+    // vdg_sac_ctrl_irldosc_DI();
+    // pinMode(PNCF_UI_SP, OUTPUT);
 
-    agndvol = u16g_drv_dac7614_convf(2.50);
-    vdg_drv_dac7614_setup();
-    vdg_drv_dac7614_start();
-    vdg_drv_dac7614_output(PNCF_DAC7614_SPDTRGT, agndvol);
-    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_STRTRGT, agndvol);
-    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IL, agndvol);
-    vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IR, agndvol);
-    vdg_drv_dac7614_end();
+    // agndvol = u16g_drv_dac7614_convf(2.50);
+    // vdg_drv_dac7614_setup();
+    // vdg_drv_dac7614_start();
+    // vdg_drv_dac7614_output(PNCF_DAC7614_SPDTRGT, agndvol);
+    // vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_STRTRGT, agndvol);
+    // vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IL, agndvol);
+    // vdg_drv_dac7614_output(PNCF_DAC7614_CTRL_IR, agndvol);
+    // vdg_drv_dac7614_end();
 
-    vdg_drv_mcp320x_setup(DRV_MCP3208_CH);
+    // vdg_drv_mcp320x_setup(DRV_MCP3208_CH);
 
-    //Serial.begin(9600);
-    //Serial.print("# RedSpecial BOOT !!");
-    vdg_sys_intr_fastintv_setup();
+    // //Serial.begin(9600);
+    // //Serial.print("# RedSpecial BOOT !!");
+    // vdg_sys_intr_fastintv_setup();
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -222,86 +210,86 @@ void vdg_sys_boot_aplInit(void)
 ////////////////////////////////////////////////////////////////////////////////
 void vdg_sys_boot_chkstp(void)
 {
-    en_sac_sys_btryst  ent_btrst;
-    ent_btrst = eng_sac_sys_btrychk();
+    // en_sac_sys_btryst  ent_btrst;
+    // ent_btrst = eng_sac_sys_btrychk();
     
-    if (ent_btrst == EMPTYVOLTAGE)
-    {
-        while(1)
-        {
-            digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-            digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
-            digitalWrite(PNCF_UI_WTLED, HIGH);
-            vdg_sac_ui_tone_WRN();
-            delay(100);
-            digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
-            digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-            digitalWrite(PNCF_UI_WTLED, LOW);
-            vdg_sac_ui_tone_WRN();
-            delay(100);
-            Serial.print("EMPTY BATTERY!!");
-        }
-    }
-    else if (ent_btrst == LOWVOLTAGE)
-    {
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
-        digitalWrite(PNCF_UI_WTLED, HIGH);
-        vdg_sac_ui_tone_piroD();
-        delay(100);
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-        digitalWrite(PNCF_UI_WTLED, LOW);
-        vdg_sac_ui_tone_piroD();
-        delay(100);
-        Serial.print("LOW BATTERY!!");
-    }
-    else if (ent_btrst == MIDVOLTAGE)
-    {
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
-        digitalWrite(PNCF_UI_WTLED, HIGH);
-        vdg_sac_ui_tone_piroU();
-        delay(100);
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-        digitalWrite(PNCF_UI_WTLED, LOW);
-        vdg_sac_ui_tone_piroU();
-        delay(100);
-        Serial.print("MID BATTERY");
-    }
-    else if (ent_btrst == FULLVOLTAGE)
-    {
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-        digitalWrite(PNCF_UI_WTLED, HIGH);
-        vdg_sac_ui_tone_pi();
-        delay(50);
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
-        digitalWrite(PNCF_UI_WTLED, LOW);
-        vdg_sac_ui_tone_pi();
-        delay(50);
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-        digitalWrite(PNCF_UI_WTLED, HIGH);
-        vdg_sac_ui_tone_pi();
-        delay(50);
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
-        digitalWrite(PNCF_UI_WTLED, LOW);
-        vdg_sac_ui_tone_pi();
-        delay(50);  
-        Serial.print("FULL BATTERY");
-    }
-    else
-    {
-        digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
-        digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
-        digitalWrite(PNCF_UI_WTLED, HIGH);
-        tone(PNCF_UI_SP, 4000);
-        while(1){/** NOP **/}
-    }
+    // if (ent_btrst == EMPTYVOLTAGE)
+    // {
+    //     while(1)
+    //     {
+    //         digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //         digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+    //         digitalWrite(PNCF_UI_WTLED, HIGH);
+    //         vdg_sac_ui_tone_WRN();
+    //         delay(100);
+    //         digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+    //         digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //         digitalWrite(PNCF_UI_WTLED, LOW);
+    //         vdg_sac_ui_tone_WRN();
+    //         delay(100);
+    //         Serial.print("EMPTY BATTERY!!");
+    //     }
+    // }
+    // else if (ent_btrst == LOWVOLTAGE)
+    // {
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+    //     digitalWrite(PNCF_UI_WTLED, HIGH);
+    //     vdg_sac_ui_tone_piroD();
+    //     delay(100);
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //     digitalWrite(PNCF_UI_WTLED, LOW);
+    //     vdg_sac_ui_tone_piroD();
+    //     delay(100);
+    //     Serial.print("LOW BATTERY!!");
+    // }
+    // else if (ent_btrst == MIDVOLTAGE)
+    // {
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+    //     digitalWrite(PNCF_UI_WTLED, HIGH);
+    //     vdg_sac_ui_tone_piroU();
+    //     delay(100);
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //     digitalWrite(PNCF_UI_WTLED, LOW);
+    //     vdg_sac_ui_tone_piroU();
+    //     delay(100);
+    //     Serial.print("MID BATTERY");
+    // }
+    // else if (ent_btrst == FULLVOLTAGE)
+    // {
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //     digitalWrite(PNCF_UI_WTLED, HIGH);
+    //     vdg_sac_ui_tone_pi();
+    //     delay(50);
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+    //     digitalWrite(PNCF_UI_WTLED, LOW);
+    //     vdg_sac_ui_tone_pi();
+    //     delay(50);
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //     digitalWrite(PNCF_UI_WTLED, HIGH);
+    //     vdg_sac_ui_tone_pi();
+    //     delay(50);
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_OFF);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_OFF);
+    //     digitalWrite(PNCF_UI_WTLED, LOW);
+    //     vdg_sac_ui_tone_pi();
+    //     delay(50);  
+    //     Serial.print("FULL BATTERY");
+    // }
+    // else
+    // {
+    //     digitalWrite(PNCF_UI_GREENLED, PNCF_UI_GREENLED_ON);
+    //     digitalWrite(PNCF_UI_REDLED, PNCF_UI_REDLED_ON);
+    //     digitalWrite(PNCF_UI_WTLED, HIGH);
+    //     tone(PNCF_UI_SP, 4000);
+    //     while(1){/** NOP **/}
+    // }
     
 }
 

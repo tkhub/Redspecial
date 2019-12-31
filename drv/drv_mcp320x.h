@@ -21,7 +21,7 @@
 
 #ifndef     __DRV_MCP320x_H__
 #define     __DRV_MCP320x_H__
-#include "../comm/typedef_arduino.h"
+#include "../lib/comm/typedef.h"
 
 #define DRV_MCP3208_CH  8   /// 8chの場合
 #define DRV_MCP3204_CH  4   /// 4chの場合

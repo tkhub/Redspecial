@@ -53,22 +53,22 @@
 //  pin 1-8
 //  SDL
 
-//  pin 1-9
+//  pin 1-9 #
 #define     PNCF_UI_GREENLED        4
 #define     PNCF_UI_GREENLED_ON     HIGH
 #define     PNCF_UI_GREENLED_OFF    LOW
 
-//  pin 1-10
+//  pin 1-10 #
 #define     PNCF_UI_REDLED          5
 #define     PNCF_UI_REDLED_ON       HIGH
 #define     PNCF_UI_REDLED_OFF      LOW
 
-//  pin 1-11
+//  pin 1-11 #
 #define     PNCF_DAC7614_LOADDAC        6
 #define     PNCF_DAC7614_LOADDAC_ASSERT LOW
 #define     PNCF_DAC7614_LOADDAC_NEGATE HIGH
 
-//  pin 1-12
+//  pin 1-12 #
 //#define     PNCF_MAKER_CNMKR        7
 //#define     PNCF_MAKER_CNMKR_ON     LOW
 //#define     PNCF_MAKER_CNMKR_OFF    HIGH
@@ -76,12 +76,12 @@
 #define     PNCF_CTRL_ENIRLED_EN    HIGH
 #define     PNCF_CTRL_ENIRLED_DI    LOW
 #
-//  pin 1-13
+//  pin 1-13 #
 #define     PNCF_MAKER_GRMKR        8
 #define     PNCF_MAKER_GRMKR_ON     LOW
 #define     PNCF_MAKER_GRMKR_OFF    HIGH
 
-//  pin 1-14
+//  pin 1-14 #
 //#define     PNCF_CTRL_ENPID         9
 //#define     PNCF_CTRL_ENPID_EN      HIGH
 //#define     PNCF_CTRL_ENPID_DI      LOW
@@ -89,7 +89,7 @@
 #define     PNCF_MAKER_CNMKR_ON     LOW
 #define     PNCF_MAKER_CNMKR_OFF    HIGH
 
-//  pin 1-15
+//  pin 1-15 #
 //#define     PNCF_CTRL_ENMTR         10
 //#define     PNCF_CTRL_ENMTR_EN      HIGH 
 //#define     PNCF_CTRL_ENMTR_DI      LOW
@@ -100,7 +100,7 @@
 //  pin 1-16
 #define     PNCF_UI_SP              11
 
-//  pin 1-17
+//  pin 1-17 #
 //#define     PNCF_CTRL_ENIRLED       12
 //#define     PNCF_CTRL_ENIRLED_EN    HIGH
 //#define     PNCF_CTRL_ENIRLED_DI    LOW
@@ -132,12 +132,12 @@
 //  pin 2-8
 //  NC
 
-//  pin 2-9
+//  pin 2-9 #
 #define     PNCF_MCP320X_ADCCS          A5
 #define     PNCF_MCP320X_ADCCS_ASSERT   LOW
 #define     PNCF_MCP320X_ADCCS_NEGATE   HIGH
 
-//  pin 2-10
+//  pin 2-10 #
 #define     PNCF_DAC7614_DACCS          A4
 #define     PNCF_DAC7614_DACCS_ASSERT   LOW
 #define     PNCF_DAC7614_DACCS_NEGATE   HIGH
