@@ -1,0 +1,1627 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kagura-rescue:Conn_01x17_Female J415
+U 1 1 5C758109
+P 7750 2450
+F 0 "J415" H 7750 3350 50  0000 C CNN
+F 1 "Conn_01x17_Female" H 7200 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 7750 2450 50  0001 C CNN
+F 3 "" H 7750 2450 50  0001 C CNN
+	1    7750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:Conn_01x17_Female J416
+U 1 1 5C758110
+P 8200 2450
+F 0 "J416" H 8200 3350 50  0000 C CNN
+F 1 "Conn_01x17_Female" H 8000 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 8200 2450 50  0001 C CNN
+F 3 "" H 8200 2450 50  0001 C CNN
+	1    8200 2450
+	-1   0    0    -1  
+$EndComp
+Text Label 6800 1650 0    60   ~ 0
+MOSI
+Text Label 6800 1750 0    60   ~ 0
+RXLED/SS
+Text Label 6800 1850 0    60   ~ 0
+D1/TX
+Text Label 6800 1950 0    60   ~ 0
+D0/RX
+Text Label 7100 2050 0    60   ~ 0
+RESET
+Text Label 6800 2250 0    60   ~ 0
+D2/SDA
+Text Label 6800 2350 0    60   ~ 0
+D3/SCL
+Text Label 6800 2450 0    60   ~ 0
+D4/A6
+Text Label 6800 2550 0    60   ~ 0
+D5(PWM)
+Text Label 6800 2650 0    60   ~ 0
+D6(PWM)/A7
+Text Label 6800 2750 0    60   ~ 0
+D7
+Text Label 6800 2850 0    60   ~ 0
+IO8/A8
+Text Label 6800 2950 0    60   ~ 0
+IO9(PWM)/A9
+Text Label 6800 3050 0    60   ~ 0
+IO10(PWM)/A10
+Text Label 6800 3150 0    60   ~ 0
+IO11(PWM)
+Text Label 6800 3250 0    60   ~ 0
+IO12/A11
+Text Label 8750 1650 2    60   ~ 0
+SCK
+Text Label 8750 1750 2    60   ~ 0
+MISO
+Text Label 8750 2050 2    60   ~ 0
+RESET
+Text Label 8750 2450 2    60   ~ 0
+A5
+Text Label 8750 2550 2    60   ~ 0
+A4
+Text Label 8750 2650 2    60   ~ 0
+A3
+Text Label 8750 2750 2    60   ~ 0
+A2
+Text Label 8750 2850 2    60   ~ 0
+A1
+Text Label 8750 2950 2    60   ~ 0
+A0
+Text Label 8850 3050 2    60   ~ 0
+VREF
+Text Label 8750 3250 2    60   ~ 0
+IO13
+NoConn ~ 8750 2250
+NoConn ~ 8750 2350
+$Comp
+L kagura-rescue:GND #PWR0266
+U 1 1 5C758154
+P 8900 1950
+F 0 "#PWR0266" H 8900 1700 50  0001 C CNN
+F 1 "GND" H 8900 1800 50  0000 C CNN
+F 2 "" H 8900 1950 50  0001 C CNN
+F 3 "" H 8900 1950 50  0001 C CNN
+	1    8900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:SW_Push SW404
+U 1 1 5C75829E
+P 2800 1800
+F 0 "SW404" H 2850 1900 50  0000 L CNN
+F 1 "GO" H 2800 1740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS810" H 2800 2000 50  0001 C CNN
+F 3 "" H 2800 2000 50  0001 C CNN
+	1    2800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:SW_Push SW403
+U 1 1 5C7582A5
+P 2400 1800
+F 0 "SW403" H 2450 1900 50  0000 L CNN
+F 1 "ESC" H 2400 1740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS810" H 2400 2000 50  0001 C CNN
+F 3 "" H 2400 2000 50  0001 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:SW_Push SW402
+U 1 1 5C7582AC
+P 2000 1800
+F 0 "SW402" H 2050 1900 50  0000 L CNN
+F 1 "UP" H 2000 1740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS810" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 1800
+	0    1    1    0   
+$EndComp
+Text Label 8850 3150 2    60   ~ 0
+3.3VOUT
+NoConn ~ 6800 1750
+Text Label 6100 1850 0    60   ~ 0
+COM_TX
+Text Label 6100 1950 0    60   ~ 0
+COM_RX
+$Comp
+L kagura-rescue:GND #PWR0267
+U 1 1 5C7582C8
+P 6850 2050
+F 0 "#PWR0267" H 6850 1800 50  0001 C CNN
+F 1 "GND" H 6850 1900 50  0000 C CNN
+F 2 "" H 6850 2050 50  0001 C CNN
+F 3 "" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:SW_Push SW401
+U 1 1 5C7582D6
+P 1600 1800
+F 0 "SW401" H 1650 1900 50  0000 L CNN
+F 1 "DOWN" H 1600 1740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS810" H 1600 2000 50  0001 C CNN
+F 3 "" H 1600 2000 50  0001 C CNN
+	1    1600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R409
+U 1 1 5C7582DD
+P 2600 1600
+F 0 "R409" V 2680 1600 50  0000 C CNN
+F 1 "1k" V 2600 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 1600 50  0001 C CNN
+F 3 "" H 2600 1600 50  0001 C CNN
+	1    2600 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R408
+U 1 1 5C7582E4
+P 2200 1600
+F 0 "R408" V 2280 1600 50  0000 C CNN
+F 1 "1k" V 2200 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 1600 50  0001 C CNN
+F 3 "" H 2200 1600 50  0001 C CNN
+	1    2200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R406
+U 1 1 5C7582EB
+P 1800 1600
+F 0 "R406" V 1880 1600 50  0000 C CNN
+F 1 "1k" V 1800 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1730 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R410
+U 1 1 5C7582F2
+P 2900 1400
+F 0 "R410" V 2980 1400 50  0000 C CNN
+F 1 "1k" V 2900 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2830 1400 50  0001 C CNN
+F 3 "" H 2900 1400 50  0001 C CNN
+	1    2900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0268
+U 1 1 5C758308
+P 1600 2100
+F 0 "#PWR0268" H 1600 1850 50  0001 C CNN
+F 1 "GND" H 1600 1950 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Text Label 3400 1600 2    60   ~ 0
+A_SW
+Text Label 8750 2150 2    60   ~ 0
+5VOUT
+Text Label 6100 2250 0    60   ~ 0
+SDA
+Text Label 6100 2350 0    60   ~ 0
+SCL
+$Comp
+L kagura-rescue:AT24CS04-SSHM U402
+U 1 1 5C75838E
+P 5200 5050
+F 0 "U402" H 5000 5300 50  0000 C CNN
+F 1 "AT24C1024B(ADR:0xAA~)" H 5500 4750 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W10.16mm" H 5200 5050 50  0001 C CIN
+F 3 "" H 5200 5050 50  0001 C CNN
+	1    5200 5050
+	1    0    0    -1  
+$EndComp
+Text Label 5200 4600 0    60   ~ 0
+3.3VOUT
+$Comp
+L kagura-rescue:GND #PWR0269
+U 1 1 5C75839F
+P 4450 5000
+F 0 "#PWR0269" H 4450 4750 50  0001 C CNN
+F 1 "GND" H 4450 4850 50  0000 C CNN
+F 2 "" H 4450 5000 50  0001 C CNN
+F 3 "" H 4450 5000 50  0001 C CNN
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0270
+U 1 1 5C7583A5
+P 4800 5250
+F 0 "#PWR0270" H 4800 5000 50  0001 C CNN
+F 1 "GND" H 4800 5100 50  0000 C CNN
+F 2 "" H 4800 5250 50  0001 C CNN
+F 3 "" H 4800 5250 50  0001 C CNN
+	1    4800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0271
+U 1 1 5C7583AB
+P 5200 5450
+F 0 "#PWR0271" H 5200 5200 50  0001 C CNN
+F 1 "GND" H 5200 5300 50  0000 C CNN
+F 2 "" H 5200 5450 50  0001 C CNN
+F 3 "" H 5200 5450 50  0001 C CNN
+	1    5200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R419
+U 1 1 5C758446
+P 6550 1400
+F 0 "R419" V 6630 1400 50  0000 C CNN
+F 1 "10k" V 6550 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 1400 50  0001 C CNN
+F 3 "" H 6550 1400 50  0001 C CNN
+	1    6550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R420
+U 1 1 5C75845B
+P 6700 1400
+F 0 "R420" V 6780 1400 50  0000 C CNN
+F 1 "10k" V 6700 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 1400 50  0001 C CNN
+F 3 "" H 6700 1400 50  0001 C CNN
+	1    6700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:PWR_FLAG #FLG0272
+U 1 1 5C75851F
+P 9100 3300
+F 0 "#FLG0272" H 9100 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9100 3450 50  0000 C CNN
+F 2 "" H 9100 3300 50  0001 C CNN
+F 3 "" H 9100 3300 50  0001 C CNN
+	1    9100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:PWR_FLAG #FLG0273
+U 1 1 5C758525
+P 9150 2150
+F 0 "#FLG0273" H 9150 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 2300 50  0000 C CNN
+F 2 "" H 9150 2150 50  0001 C CNN
+F 3 "" H 9150 2150 50  0001 C CNN
+	1    9150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R416
+U 1 1 5C758578
+P 4650 4800
+F 0 "R416" V 4730 4800 50  0000 C CNN
+F 1 "4.7k" V 4650 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 4800 50  0001 C CNN
+F 3 "" H 4650 4800 50  0001 C CNN
+	1    4650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:Conn_01x05_Female J401
+U 1 1 5C758582
+P 2050 4350
+F 0 "J401" H 2050 4650 50  0000 C CNN
+F 1 "Conn_01x05_Female" H 2250 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0274
+U 1 1 5C75858C
+P 1700 4600
+F 0 "#PWR0274" H 1700 4350 50  0001 C CNN
+F 1 "GND" H 1700 4450 50  0000 C CNN
+F 2 "" H 1700 4600 50  0001 C CNN
+F 3 "" H 1700 4600 50  0001 C CNN
+	1    1700 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1850 4350
+Text Label 1300 4150 2    60   ~ 0
+COM_TX
+Text Label 1300 4250 2    60   ~ 0
+COM_RX
+$Comp
+L kagura-rescue:R R401
+U 1 1 5C758596
+P 1450 4150
+F 0 "R401" V 1530 4150 50  0000 C CNN
+F 1 "100" V 1450 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1380 4150 50  0001 C CNN
+F 3 "" H 1450 4150 50  0001 C CNN
+	1    1450 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R404
+U 1 1 5C75859D
+P 1700 4250
+F 0 "R404" V 1780 4250 50  0000 C CNN
+F 1 "100" V 1700 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 4250 50  0001 C CNN
+F 3 "" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:C C405
+U 1 1 5C7585C9
+P 3150 1850
+F 0 "C405" H 3175 1950 50  0000 L CNN
+F 1 "1uF" H 3175 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 1700 50  0001 C CNN
+F 3 "" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:C C407
+U 1 1 5C758665
+P 5700 5800
+F 0 "C407" H 5725 5900 50  0000 L CNN
+F 1 "0.1uF" H 5725 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 5738 5650 50  0001 C CNN
+F 3 "" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0275
+U 1 1 5C75866C
+P 5700 5950
+F 0 "#PWR0275" H 5700 5700 50  0001 C CNN
+F 1 "GND" H 5700 5800 50  0000 C CNN
+F 2 "" H 5700 5950 50  0001 C CNN
+F 3 "" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+Text Label 5700 5650 0    60   ~ 0
+3.3VOUT
+Text GLabel 6050 3250 0    50   Input ~ 0
+D_EN_LED_IF
+Text GLabel 10250 5700 2    60   Input ~ 0
+D_RST_IF
+Text GLabel 10250 5550 2    60   Input ~ 0
+D_SPICLK_IF
+Text GLabel 10250 5250 2    60   Input ~ 0
+D_SPIMOSI_IF
+Text GLabel 8750 2550 2    50   Input ~ 0
+D_SPICSDAC_IF
+Text GLabel 10250 5400 2    60   Output ~ 0
+D_SPIMISO_IF
+Text GLabel 8750 2450 2    50   Input ~ 0
+D_SPICSADC_IF
+Text GLabel 6050 3050 0    50   Input ~ 0
+D_EN_MTR_IF
+Text GLabel 6050 2950 0    50   Input ~ 0
+D_EN_PID_IF
+Text Label 10050 5700 2    60   ~ 0
+RESET
+Text Label 6050 3150 2    60   ~ 0
+SP
+Text Label 10050 5550 2    60   ~ 0
+SCK
+Text Label 10050 5250 2    60   ~ 0
+MOSI
+Text Label 10050 5400 2    60   ~ 0
+MISO
+Text Label 6550 1150 2    60   ~ 0
+3.3VOUT
+Text Label 5900 4950 0    60   ~ 0
+SDA
+Text Label 5900 5100 0    60   ~ 0
+SCL
+Text Label 9400 2650 0    60   ~ 0
+A_SW
+Text Label 9400 2950 0    60   ~ 0
+A_BATT
+Text GLabel 9850 2850 2    50   Input ~ 0
+A_TEMP_IF
+Text GLabel 1300 750  0    60   Input ~ 0
+A_BATT_IF
+$Comp
+L kagura-rescue:R R402
+U 1 1 5C78FC7A
+P 1550 750
+F 0 "R402" V 1630 750 50  0000 C CNN
+F 1 "20k" V 1550 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 750 50  0001 C CNN
+F 3 "" H 1550 750 50  0001 C CNN
+	1    1550 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R405
+U 1 1 5C78FDE5
+P 1750 1000
+F 0 "R405" V 1830 1000 50  0000 C CNN
+F 1 "10k" V 1750 1000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1680 1000 50  0001 C CNN
+F 3 "" H 1750 1000 50  0001 C CNN
+	1    1750 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kagura-rescue:C C403
+U 1 1 5C790222
+P 2050 1000
+F 0 "C403" H 2075 1100 50  0000 L CNN
+F 1 "1uF" H 2075 900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2088 850 50  0001 C CNN
+F 3 "" H 2050 1000 50  0001 C CNN
+	1    2050 1000
+	1    0    0    -1  
+$EndComp
+Text Label 2350 750  0    60   ~ 0
+A_BATT
+$Comp
+L kagura-rescue:+9VA #PWR0276
+U 1 1 5C7938F2
+P 8900 1750
+F 0 "#PWR0276" H 8900 1625 50  0001 C CNN
+F 1 "+9VA" H 8900 1900 50  0000 C CNN
+F 2 "" H 8900 1750 50  0001 C CNN
+F 3 "" H 8900 1750 50  0001 C CNN
+	1    8900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:+9VA #PWR0277
+U 1 1 5C7939A4
+P 9600 1650
+F 0 "#PWR0277" H 9600 1525 50  0001 C CNN
+F 1 "+9VA" H 9600 1800 50  0000 C CNN
+F 2 "" H 9600 1650 50  0001 C CNN
+F 3 "" H 9600 1650 50  0001 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:C C408
+U 1 1 5C793A79
+P 9600 1800
+F 0 "C408" H 9625 1900 50  0000 L CNN
+F 1 "1uF" H 9625 1700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9638 1650 50  0001 C CNN
+F 3 "" H 9600 1800 50  0001 C CNN
+	1    9600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0278
+U 1 1 5C793B36
+P 9600 1950
+F 0 "#PWR0278" H 9600 1700 50  0001 C CNN
+F 1 "GND" H 9600 1800 50  0000 C CNN
+F 2 "" H 9600 1950 50  0001 C CNN
+F 3 "" H 9600 1950 50  0001 C CNN
+	1    9600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:Q_NMOS_DGS Q401
+U 1 1 5C79CF92
+P 7300 5900
+F 0 "Q401" H 7500 5950 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 7500 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7500 6000 50  0001 C CNN
+F 3 "" H 7300 5900 50  0001 C CNN
+	1    7300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:Q_NMOS_DGS Q402
+U 1 1 5C79D027
+P 8900 5900
+F 0 "Q402" H 9100 5950 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9100 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 9100 6000 50  0001 C CNN
+F 3 "" H 8900 5900 50  0001 C CNN
+	1    8900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R421
+U 1 1 5C79E189
+P 6850 5900
+F 0 "R421" V 6930 5900 50  0000 C CNN
+F 1 "1k" V 6850 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6780 5900 50  0001 C CNN
+F 3 "" H 6850 5900 50  0001 C CNN
+	1    6850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0279
+U 1 1 5C79E393
+P 7400 6150
+F 0 "#PWR0279" H 7400 5900 50  0001 C CNN
+F 1 "GND" H 7400 6000 50  0000 C CNN
+F 2 "" H 7400 6150 50  0001 C CNN
+F 3 "" H 7400 6150 50  0001 C CNN
+	1    7400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0280
+U 1 1 5C79E7A3
+P 9000 6150
+F 0 "#PWR0280" H 9000 5900 50  0001 C CNN
+F 1 "GND" H 9000 6000 50  0000 C CNN
+F 2 "" H 9000 6150 50  0001 C CNN
+F 3 "" H 9000 6150 50  0001 C CNN
+	1    9000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R425
+U 1 1 5C79E978
+P 8450 5900
+F 0 "R425" V 8530 5900 50  0000 C CNN
+F 1 "1k" V 8450 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 5900 50  0001 C CNN
+F 3 "" H 8450 5900 50  0001 C CNN
+	1    8450 5900
+	0    1    1    0   
+$EndComp
+Text Label 6550 5900 2    60   ~ 0
+SP
+Text Label 8200 5900 2    60   ~ 0
+IO13
+$Comp
+L kagura-rescue:R R427
+U 1 1 5C79F4D7
+P 9000 5250
+F 0 "R427" V 9080 5250 50  0000 C CNN
+F 1 "470" V 9000 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 5250 50  0001 C CNN
+F 3 "" H 9000 5250 50  0001 C CNN
+	1    9000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:LED D403
+U 1 1 5C79F6E0
+P 9000 5550
+F 0 "D403" H 9000 5650 50  0000 C CNN
+F 1 "LED" H 9000 5450 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 9000 5550 50  0001 C CNN
+F 3 "" H 9000 5550 50  0001 C CNN
+	1    9000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kagura-rescue:R R423
+U 1 1 5C79FF55
+P 7250 5450
+F 0 "R423" V 7330 5450 50  0000 C CNN
+F 1 "R" V 7250 5450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 5450 50  0001 C CNN
+F 3 "" H 7250 5450 50  0001 C CNN
+	1    7250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:Conn_01x02 J414
+U 1 1 5C7A03B0
+P 7700 5400
+F 0 "J414" H 7700 5500 50  0000 C CNN
+F 1 "Conn_01x02" H 7700 5200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7700 5400 50  0001 C CNN
+F 3 "" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R424
+U 1 1 5C7A0610
+P 7400 5050
+F 0 "R424" V 7480 5050 50  0000 C CNN
+F 1 "R" V 7400 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 5050 50  0001 C CNN
+F 3 "" H 7400 5050 50  0001 C CNN
+	1    7400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:ICM-20602 U401
+U 1 1 5C7CD352
+P 2100 6500
+F 0 "U401" H 2100 6600 60  0000 C CNN
+F 1 "ICM-20602" H 2100 6500 60  0000 C CNN
+F 2 "NOPINSMDPKG_Handsolder:QFN-20-4_3x3mm_Pitch0.5mm_HND" H 2100 6500 60  0001 C CNN
+F 3 "" H 2100 6500 60  0001 C CNN
+	1    2100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0281
+U 1 1 5C7CE7B4
+P 1050 6800
+F 0 "#PWR0281" H 1050 6550 50  0001 C CNN
+F 1 "GND" H 1050 6650 50  0000 C CNN
+F 2 "" H 1050 6800 50  0001 C CNN
+F 3 "" H 1050 6800 50  0001 C CNN
+	1    1050 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1650 6800 1650
+Wire Wire Line
+	7550 1750 6800 1750
+Wire Wire Line
+	7550 1850 6100 1850
+Wire Wire Line
+	7550 1950 6100 1950
+Wire Wire Line
+	5850 2250 6550 2250
+Wire Wire Line
+	5500 2350 6700 2350
+Wire Wire Line
+	5000 2450 7550 2450
+Wire Wire Line
+	5250 2550 7550 2550
+Wire Wire Line
+	6050 2650 7550 2650
+Wire Wire Line
+	6550 2750 7550 2750
+Wire Wire Line
+	6550 2850 7550 2850
+Wire Wire Line
+	6050 2950 7550 2950
+Wire Wire Line
+	6050 3050 7550 3050
+Wire Wire Line
+	6050 3150 7550 3150
+Wire Wire Line
+	6050 3250 7550 3250
+Wire Wire Line
+	8400 1650 8750 1650
+Wire Wire Line
+	8750 1750 8400 1750
+Wire Wire Line
+	8400 1850 8900 1850
+Wire Wire Line
+	8400 1950 8900 1950
+Wire Wire Line
+	8400 2050 8750 2050
+Wire Wire Line
+	8400 2150 9150 2150
+Wire Wire Line
+	8400 2250 8750 2250
+Wire Wire Line
+	8750 2350 8400 2350
+Wire Wire Line
+	8400 3150 8850 3150
+Wire Wire Line
+	8900 1850 8900 1750
+Wire Wire Line
+	7050 2000 7050 2150
+Wire Wire Line
+	7050 2150 7550 2150
+Wire Wire Line
+	2750 1600 2800 1600
+Wire Wire Line
+	2800 2050 2800 2000
+Wire Wire Line
+	2350 1600 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	1950 1600 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	1650 1600 1600 1600
+Connection ~ 2800 1600
+Wire Wire Line
+	1600 2000 1600 2050
+Wire Wire Line
+	1600 2050 2000 2050
+Wire Wire Line
+	2400 2050 2400 2000
+Connection ~ 2400 2050
+Wire Wire Line
+	2000 2000 2000 2050
+Connection ~ 2000 2050
+Connection ~ 1600 2050
+Wire Wire Line
+	2900 1600 2900 1550
+Connection ~ 2900 1600
+Wire Wire Line
+	7100 2050 7550 2050
+Wire Wire Line
+	5200 4600 5200 4650
+Wire Wire Line
+	4650 5100 4800 5100
+Wire Wire Line
+	4450 5000 4800 5000
+Wire Wire Line
+	5600 4950 5900 4950
+Wire Wire Line
+	5600 5100 5900 5100
+Wire Wire Line
+	6550 1550 6550 2250
+Connection ~ 6550 2250
+Wire Wire Line
+	6700 1550 6700 2350
+Connection ~ 6700 2350
+Wire Wire Line
+	6850 2050 6850 2000
+Wire Wire Line
+	4650 5100 4650 4950
+Wire Wire Line
+	4650 4650 5200 4650
+Connection ~ 5200 4650
+Wire Wire Line
+	1300 4450 1850 4450
+Wire Wire Line
+	1700 4550 1850 4550
+Wire Wire Line
+	1700 4550 1700 4600
+Wire Wire Line
+	1600 4150 1850 4150
+Wire Wire Line
+	1550 4250 1300 4250
+Wire Wire Line
+	3150 1700 3150 1600
+Connection ~ 3150 1600
+Wire Wire Line
+	3150 2050 3150 2000
+Connection ~ 2800 2050
+Wire Wire Line
+	8750 2450 8400 2450
+Wire Wire Line
+	8400 2550 8750 2550
+Wire Wire Line
+	8400 2650 9400 2650
+Wire Wire Line
+	8400 2850 9750 2850
+Wire Wire Line
+	8400 2950 9400 2950
+Wire Wire Line
+	10250 5700 10050 5700
+Wire Wire Line
+	10250 5250 10050 5250
+Wire Wire Line
+	10250 5400 10050 5400
+Wire Wire Line
+	10250 5550 10050 5550
+Wire Wire Line
+	6550 1150 6550 1200
+Wire Wire Line
+	6700 1250 6700 1200
+Wire Wire Line
+	6700 1200 6550 1200
+Connection ~ 6550 1200
+Wire Wire Line
+	8400 3250 8750 3250
+Wire Wire Line
+	1400 750  1300 750 
+Wire Wire Line
+	1750 1200 1750 1150
+Wire Wire Line
+	1750 850  1750 750 
+Wire Wire Line
+	1700 750  1750 750 
+Wire Wire Line
+	2050 750  2050 850 
+Connection ~ 1750 750 
+Wire Wire Line
+	2050 1200 2050 1150
+Connection ~ 2050 750 
+Wire Wire Line
+	7400 6150 7400 6100
+Wire Wire Line
+	9000 6150 9000 6100
+Wire Wire Line
+	8600 5900 8650 5900
+Wire Wire Line
+	8300 5900 8200 5900
+Wire Wire Line
+	6550 5900 6650 5900
+Wire Wire Line
+	7500 5500 7400 5500
+Wire Wire Line
+	7400 5500 7400 5650
+Wire Wire Line
+	7400 5400 7500 5400
+Wire Wire Line
+	7400 5200 7400 5250
+Wire Wire Line
+	7400 5250 7250 5250
+Wire Wire Line
+	7250 5250 7250 5300
+Connection ~ 7400 5250
+Wire Wire Line
+	7250 5600 7250 5650
+Wire Wire Line
+	7250 5650 7400 5650
+Connection ~ 7400 5650
+Wire Wire Line
+	1050 6350 1050 6450
+Wire Wire Line
+	1050 6350 1150 6350
+Wire Wire Line
+	1050 6450 1150 6450
+Connection ~ 1050 6450
+Wire Wire Line
+	1150 6550 1050 6550
+Connection ~ 1050 6550
+Wire Wire Line
+	1050 6650 1150 6650
+Connection ~ 1050 6650
+Wire Wire Line
+	1150 6750 1050 6750
+Connection ~ 1050 6750
+$Comp
+L kagura-rescue:C C404
+U 1 1 5C7CF5B9
+P 2500 5500
+F 0 "C404" H 2525 5600 50  0000 L CNN
+F 1 "0.1uF" H 2525 5400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2538 5350 50  0001 C CNN
+F 3 "" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5700 2250 5350
+Wire Wire Line
+	2250 5350 2500 5350
+$Comp
+L kagura-rescue:GND #PWR0282
+U 1 1 5C7CF749
+P 2500 5650
+F 0 "#PWR0282" H 2500 5400 50  0001 C CNN
+F 1 "GND" H 2500 5500 50  0000 C CNN
+F 2 "" H 2500 5650 50  0001 C CNN
+F 3 "" H 2500 5650 50  0001 C CNN
+	1    2500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6250 3300 6250
+Wire Wire Line
+	3000 6350 3300 6350
+Text Label 3300 6350 0    60   ~ 0
+SDA
+Text Label 3300 6250 0    60   ~ 0
+SCL
+$Comp
+L kagura-rescue:R R411
+U 1 1 5C7D16E1
+P 3100 5950
+F 0 "R411" V 3180 5950 50  0000 C CNN
+F 1 "4.7k" V 3100 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3030 5950 50  0001 C CNN
+F 3 "" H 3100 5950 50  0001 C CNN
+	1    3100 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6100 3100 6550
+Wire Wire Line
+	3100 6550 3000 6550
+Wire Wire Line
+	3100 5300 3100 5800
+Wire Wire Line
+	2100 5700 2100 5650
+Wire Wire Line
+	1950 5300 1950 5650
+Wire Wire Line
+	2100 5650 1950 5650
+Connection ~ 1950 5650
+Wire Wire Line
+	3000 6650 3100 6650
+NoConn ~ 3000 6750
+Wire Wire Line
+	3100 6650 3100 6750
+$Comp
+L kagura-rescue:R R412
+U 1 1 5C7D27C3
+P 3100 6900
+F 0 "R412" V 3180 6900 50  0000 C CNN
+F 1 "4.7k" V 3100 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3030 6900 50  0001 C CNN
+F 3 "" H 3100 6900 50  0001 C CNN
+	1    3100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0283
+U 1 1 5C7D28FE
+P 3100 7050
+F 0 "#PWR0283" H 3100 6800 50  0001 C CNN
+F 1 "GND" H 3100 6900 50  0000 C CNN
+F 2 "" H 3100 7050 50  0001 C CNN
+F 3 "" H 3100 7050 50  0001 C CNN
+	1    3100 7050
+	1    0    0    -1  
+$EndComp
+Text Label 3100 5300 0    60   ~ 0
+3.3VOUT
+Text Label 1950 5300 0    60   ~ 0
+3.3VOUT
+Text Notes 3450 6700 0    60   ~ 0
+ICM-20602=0x34/35\nSA0=L=34/SA0=H=35
+Wire Wire Line
+	3000 6450 3300 6450
+Wire Wire Line
+	3300 6450 3300 6750
+$Comp
+L kagura-rescue:R R413
+U 1 1 5C7D4A89
+P 3300 6900
+F 0 "R413" V 3380 6900 50  0000 C CNN
+F 1 "4.7k" V 3300 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3230 6900 50  0001 C CNN
+F 3 "" H 3300 6900 50  0001 C CNN
+	1    3300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0284
+U 1 1 5C7D4C5F
+P 3300 7050
+F 0 "#PWR0284" H 3300 6800 50  0001 C CNN
+F 1 "GND" H 3300 6900 50  0000 C CNN
+F 2 "" H 3300 7050 50  0001 C CNN
+F 3 "" H 3300 7050 50  0001 C CNN
+	1    3300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0285
+U 1 1 5C7D51D8
+P 2100 7250
+F 0 "#PWR0285" H 2100 7000 50  0001 C CNN
+F 1 "GND" H 2100 7100 50  0000 C CNN
+F 2 "" H 2100 7250 50  0001 C CNN
+F 3 "" H 2100 7250 50  0001 C CNN
+	1    2100 7250
+	1    0    0    -1  
+$EndComp
+Text Label 1400 5300 0    60   ~ 0
+3.3VOUT
+$Comp
+L kagura-rescue:GND #PWR0286
+U 1 1 5C7D5633
+P 1400 5650
+F 0 "#PWR0286" H 1400 5400 50  0001 C CNN
+F 1 "GND" H 1400 5500 50  0000 C CNN
+F 2 "" H 1400 5650 50  0001 C CNN
+F 3 "" H 1400 5650 50  0001 C CNN
+	1    1400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:C C401
+U 1 1 5C7D56B5
+P 1400 5500
+F 0 "C401" H 1425 5600 50  0000 L CNN
+F 1 "0.1uF" H 1425 5400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1438 5350 50  0001 C CNN
+F 3 "" H 1400 5500 50  0001 C CNN
+	1    1400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5350 1400 5300
+$Comp
+L kagura-rescue:GND #PWR0287
+U 1 1 5C7D7441
+P 1750 1200
+F 0 "#PWR0287" H 1750 950 50  0001 C CNN
+F 1 "GND" H 1750 1050 50  0000 C CNN
+F 2 "" H 1750 1200 50  0001 C CNN
+F 3 "" H 1750 1200 50  0001 C CNN
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0288
+U 1 1 5C7D74FB
+P 2050 1200
+F 0 "#PWR0288" H 2050 950 50  0001 C CNN
+F 1 "GND" H 2050 1050 50  0000 C CNN
+F 2 "" H 2050 1200 50  0001 C CNN
+F 3 "" H 2050 1200 50  0001 C CNN
+	1    2050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R422
+U 1 1 5C7D8114
+P 7050 6100
+F 0 "R422" V 7130 6100 50  0000 C CNN
+F 1 "4.7k" V 7050 6100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 6100 50  0001 C CNN
+F 3 "" H 7050 6100 50  0001 C CNN
+	1    7050 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 5900 7050 5900
+Wire Wire Line
+	7050 5950 7050 5900
+Connection ~ 7050 5900
+$Comp
+L kagura-rescue:GND #PWR0289
+U 1 1 5C7D87D6
+P 7050 6250
+F 0 "#PWR0289" H 7050 6000 50  0001 C CNN
+F 1 "GND" H 7050 6100 50  0000 C CNN
+F 2 "" H 7050 6250 50  0001 C CNN
+F 3 "" H 7050 6250 50  0001 C CNN
+	1    7050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:R R426
+U 1 1 5C7D8DE5
+P 8650 6100
+F 0 "R426" V 8730 6100 50  0000 C CNN
+F 1 "4.7k" V 8650 6100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8580 6100 50  0001 C CNN
+F 3 "" H 8650 6100 50  0001 C CNN
+	1    8650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5950 8650 5900
+Connection ~ 8650 5900
+$Comp
+L kagura-rescue:GND #PWR0290
+U 1 1 5C7D8FF2
+P 8650 6250
+F 0 "#PWR0290" H 8650 6000 50  0001 C CNN
+F 1 "GND" H 8650 6100 50  0000 C CNN
+F 2 "" H 8650 6250 50  0001 C CNN
+F 3 "" H 8650 6250 50  0001 C CNN
+	1    8650 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:TEST_1P J407
+U 1 1 5C7E646D
+P 6650 5850
+F 0 "J407" H 6650 6120 50  0000 C CNN
+F 1 "TEST_1P" H 6650 6050 50  0000 C CNN
+F 2 "Connect:Pin_d1.0mm_L10.0mm_LooseFit" H 6850 5850 50  0001 C CNN
+F 3 "" H 6850 5850 50  0001 C CNN
+	1    6650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5850 6650 5900
+Connection ~ 6650 5900
+$Comp
+L kagura-rescue:TEST_1P J406
+U 1 1 5C7E66DE
+P 5850 2150
+F 0 "J406" H 5850 2420 50  0000 C CNN
+F 1 "SMD" H 5850 2350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6050 2150 50  0001 C CNN
+F 3 "" H 6050 2150 50  0001 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:TEST_1P J405
+U 1 1 5C7E6E62
+P 5500 2150
+F 0 "J405" H 5500 2420 50  0000 C CNN
+F 1 "SMD" H 5500 2350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 2150 50  0001 C CNN
+F 3 "" H 5700 2150 50  0001 C CNN
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2150 5500 2350
+Wire Wire Line
+	5850 2250 5850 2150
+Text Label 1300 4450 2    60   ~ 0
+3.3VOUT
+Wire Wire Line
+	6850 2000 7050 2000
+Wire Wire Line
+	2900 1200 2900 1250
+Text Label 2900 1200 2    60   ~ 0
+5VOUT
+Text Label 9000 5100 2    60   ~ 0
+5VOUT
+Text Label 7400 4850 2    60   ~ 0
+5VOUT
+Wire Wire Line
+	7400 4850 7400 4900
+$Comp
+L kagura-rescue:Conn_01x05_Female J402
+U 1 1 5C837DDE
+P 3450 4400
+F 0 "J402" H 3450 4700 50  0000 C CNN
+F 1 "Conn_01x05_Female" H 3650 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3450 4400 50  0001 C CNN
+F 3 "" H 3450 4400 50  0001 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0291
+U 1 1 5C837DE4
+P 3100 4650
+F 0 "#PWR0291" H 3100 4400 50  0001 C CNN
+F 1 "GND" H 3100 4500 50  0000 C CNN
+F 2 "" H 3100 4650 50  0001 C CNN
+F 3 "" H 3100 4650 50  0001 C CNN
+	1    3100 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3250 4400
+Wire Wire Line
+	2700 4500 3250 4500
+Wire Wire Line
+	3100 4600 3250 4600
+Wire Wire Line
+	3100 4600 3100 4650
+Wire Wire Line
+	3000 4200 3250 4200
+Text Label 2700 4500 2    60   ~ 0
+3.3VOUT
+Wire Wire Line
+	3000 4300 3250 4300
+Text Label 3000 4200 2    60   ~ 0
+SDA
+Text Label 3000 4300 2    60   ~ 0
+SCL
+$Comp
+L kagura-rescue:TEST_1P J408
+U 1 1 5C8E64D4
+P 6850 3850
+F 0 "J408" H 6850 4120 50  0000 C CNN
+F 1 "SMD" H 6850 4050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7050 3850 50  0001 C CNN
+F 3 "" H 7050 3850 50  0001 C CNN
+	1    6850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3850 6550 3850
+$Comp
+L kagura-rescue:TEST_1P J409
+U 1 1 5C8E70DA
+P 7000 3950
+F 0 "J409" H 7000 4220 50  0000 C CNN
+F 1 "SMD" H 7000 4150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7200 3950 50  0001 C CNN
+F 3 "" H 7200 3950 50  0001 C CNN
+	1    7000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4000 7000 4000
+Wire Wire Line
+	7000 4000 7000 3950
+$Comp
+L kagura-rescue:TEST_1P J410
+U 1 1 5C8E72E8
+P 7150 4150
+F 0 "J410" H 7150 4420 50  0000 C CNN
+F 1 "SMD" H 7150 4350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7350 4150 50  0001 C CNN
+F 3 "" H 7350 4150 50  0001 C CNN
+	1    7150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4150 7150 4150
+Text Label 6550 3850 2    60   ~ 0
+MOSI
+Text Label 6550 4000 2    60   ~ 0
+MISO
+Text Label 6550 4150 2    60   ~ 0
+SCK
+$Comp
+L kagura-rescue:TEST_1P J411
+U 1 1 5C8E7BE9
+P 7300 4300
+F 0 "J411" H 7300 4570 50  0000 C CNN
+F 1 "SMD" H 7300 4500 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7500 4300 50  0001 C CNN
+F 3 "" H 7500 4300 50  0001 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4300 7300 4300
+Text GLabel 6550 4300 0    50   Input ~ 0
+D_SETDAC_IF
+Text GLabel 6550 4700 0    50   Input ~ 0
+D_SPICSADC_IF
+$Comp
+L kagura-rescue:TEST_1P J412
+U 1 1 5C8E94E8
+P 7450 4450
+F 0 "J412" H 7450 4720 50  0000 C CNN
+F 1 "SMD" H 7450 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7650 4450 50  0001 C CNN
+F 3 "" H 7650 4450 50  0001 C CNN
+	1    7450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4500 7450 4500
+Wire Wire Line
+	7450 4500 7450 4450
+$Comp
+L kagura-rescue:TEST_1P J413
+U 1 1 5C8E9BAC
+P 7600 4600
+F 0 "J413" H 7600 4870 50  0000 C CNN
+F 1 "SMD" H 7600 4800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7800 4600 50  0001 C CNN
+F 3 "" H 7800 4600 50  0001 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 4500 0    50   Input ~ 0
+D_SPICSDAC_IF
+Wire Wire Line
+	6550 4700 7600 4700
+Wire Wire Line
+	7600 4700 7600 4600
+$Comp
+L kagura-rescue:LED D401
+U 1 1 5CBBD05A
+P 5000 3000
+F 0 "D401" H 5000 3100 50  0000 C CNN
+F 1 "LED" H 5000 2900 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kagura-rescue:LED D402
+U 1 1 5CBBD154
+P 5250 3000
+F 0 "D402" H 5250 3100 50  0000 C CNN
+F 1 "LED" H 5250 2900 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 5250 3000 50  0001 C CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kagura-rescue:R R417
+U 1 1 5CBBDA7C
+P 5000 2700
+F 0 "R417" V 5080 2700 50  0000 C CNN
+F 1 "R" V 5000 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4930 2700 50  0001 C CNN
+F 3 "" H 5000 2700 50  0001 C CNN
+	1    5000 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L kagura-rescue:R R418
+U 1 1 5CBBDCED
+P 5250 2700
+F 0 "R418" V 5330 2700 50  0000 C CNN
+F 1 "R" V 5250 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5180 2700 50  0001 C CNN
+F 3 "" H 5250 2700 50  0001 C CNN
+	1    5250 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2350 5000 2450
+$Comp
+L kagura-rescue:GND #PWR0292
+U 1 1 5CBBE1AB
+P 5000 3200
+F 0 "#PWR0292" H 5000 2950 50  0001 C CNN
+F 1 "GND" H 5000 3050 50  0000 C CNN
+F 2 "" H 5000 3200 50  0001 C CNN
+F 3 "" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:GND #PWR0293
+U 1 1 5CBBE325
+P 5250 3200
+F 0 "#PWR0293" H 5250 2950 50  0001 C CNN
+F 1 "GND" H 5250 3050 50  0000 C CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3200 5250 3150
+Wire Wire Line
+	5000 3150 5000 3200
+Text GLabel 8750 2750 2    50   Input ~ 0
+A_AGND_IF
+Wire Wire Line
+	8750 2750 8400 2750
+$Comp
+L kagura-rescue:R R428
+U 1 1 5CBE21C6
+P 9750 2600
+F 0 "R428" V 9830 2600 50  0000 C CNN
+F 1 "R" V 9750 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9680 2600 50  0001 C CNN
+F 3 "" H 9750 2600 50  0001 C CNN
+	1    9750 2600
+	1    0    0    -1  
+$EndComp
+Text Label 9750 2400 0    60   ~ 0
+5VOUT
+Wire Wire Line
+	9750 2400 9750 2450
+Wire Wire Line
+	9750 2750 9750 2850
+Connection ~ 9750 2850
+$Comp
+L kagura-rescue:TEST_1P J403
+U 1 1 5CBE4E00
+P 5000 2350
+F 0 "J403" H 5000 2620 50  0000 C CNN
+F 1 "SMD" H 5000 2550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 2350 50  0001 C CNN
+F 3 "" H 5200 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L kagura-rescue:TEST_1P J404
+U 1 1 5CBE4F3C
+P 5250 2350
+F 0 "J404" H 5250 2620 50  0000 C CNN
+F 1 "SMD" H 5250 2550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5450 2350 50  0001 C CNN
+F 3 "" H 5450 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2450
+Wire Wire Line
+	5250 2350 5250 2550
+Text GLabel 3350 3150 0    50   Input ~ 0
+D_CNMKR0_IF
+Text GLabel 1450 3150 0    50   Input ~ 0
+D_GRMKR0_IF
+$Comp
+L kagura-rescue:R R415
+U 1 1 5CBF6E19
+P 3700 3150
+F 0 "R415" V 3780 3150 50  0000 C CNN
+F 1 "10k" V 3700 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3630 3150 50  0001 C CNN
+F 3 "" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R414
+U 1 1 5CBF6FAE
+P 3450 2950
+F 0 "R414" V 3530 2950 50  0000 C CNN
+F 1 "1k" V 3450 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 2950 50  0001 C CNN
+F 3 "" H 3450 2950 50  0001 C CNN
+	1    3450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L kagura-rescue:C C406
+U 1 1 5CBF7505
+P 3900 3350
+F 0 "C406" H 3925 3450 50  0000 L CNN
+F 1 "0.1uF" H 3925 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3938 3200 50  0001 C CNN
+F 3 "" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+Text Label 3450 2750 2    60   ~ 0
+5VOUT
+Wire Wire Line
+	3450 2750 3450 2800
+Wire Wire Line
+	3350 3150 3450 3150
+Wire Wire Line
+	3450 3150 3450 3100
+Connection ~ 3450 3150
+Wire Wire Line
+	3850 3150 3900 3150
+Wire Wire Line
+	3900 3150 3900 3200
+$Comp
+L kagura-rescue:GND #PWR0294
+U 1 1 5CBF8067
+P 3900 3500
+F 0 "#PWR0294" H 3900 3250 50  0001 C CNN
+F 1 "GND" H 3900 3350 50  0000 C CNN
+F 2 "" H 3900 3500 50  0001 C CNN
+F 3 "" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 3150
+$Comp
+L kagura-rescue:R R407
+U 1 1 5CBF8D44
+P 1800 3150
+F 0 "R407" V 1880 3150 50  0000 C CNN
+F 1 "10k" V 1800 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1730 3150 50  0001 C CNN
+F 3 "" H 1800 3150 50  0001 C CNN
+	1    1800 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L kagura-rescue:R R403
+U 1 1 5CBF8D4A
+P 1550 2950
+F 0 "R403" V 1630 2950 50  0000 C CNN
+F 1 "1k" V 1550 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 2950 50  0001 C CNN
+F 3 "" H 1550 2950 50  0001 C CNN
+	1    1550 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L kagura-rescue:C C402
+U 1 1 5CBF8D50
+P 2000 3350
+F 0 "C402" H 2025 3450 50  0000 L CNN
+F 1 "0.1uF" H 2025 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2038 3200 50  0001 C CNN
+F 3 "" H 2000 3350 50  0001 C CNN
+	1    2000 3350
+	1    0    0    -1  
+$EndComp
+Text Label 1550 2750 2    60   ~ 0
+5VOUT
+Wire Wire Line
+	1550 2750 1550 2800
+Wire Wire Line
+	1450 3150 1550 3150
+Wire Wire Line
+	1550 3150 1550 3100
+Connection ~ 1550 3150
+Wire Wire Line
+	1950 3150 2000 3150
+Wire Wire Line
+	2000 3150 2000 3200
+$Comp
+L kagura-rescue:GND #PWR0295
+U 1 1 5CBF8D5D
+P 2000 3500
+F 0 "#PWR0295" H 2000 3250 50  0001 C CNN
+F 1 "GND" H 2000 3350 50  0000 C CNN
+F 2 "" H 2000 3500 50  0001 C CNN
+F 3 "" H 2000 3500 50  0001 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 3150
+Text GLabel 6050 2650 0    50   Input ~ 0
+D_SETDAC_IF
+Text Label 6550 2750 2    60   ~ 0
+D_CNMKR
+Text Label 6550 2850 2    60   ~ 0
+D_GRMKR
+Text Label 2250 3150 0    60   ~ 0
+D_GRMKR
+Text Label 4150 3150 0    60   ~ 0
+D_CNMKR
+Wire Wire Line
+	8850 3150 8850 3350
+Wire Wire Line
+	8850 3350 9100 3350
+Wire Wire Line
+	9100 3350 9100 3300
+Wire Wire Line
+	8400 3050 9300 3050
+NoConn ~ 9300 3050
+Wire Wire Line
+	2400 1600 2450 1600
+Wire Wire Line
+	2000 1600 2050 1600
+Wire Wire Line
+	2800 1600 2900 1600
+Wire Wire Line
+	2400 2050 2800 2050
+Wire Wire Line
+	2000 2050 2400 2050
+Wire Wire Line
+	1600 2050 1600 2100
+Wire Wire Line
+	2900 1600 3150 1600
+Wire Wire Line
+	6550 2250 7550 2250
+Wire Wire Line
+	6700 2350 7550 2350
+Wire Wire Line
+	5200 4650 5200 4700
+Wire Wire Line
+	3150 1600 3400 1600
+Wire Wire Line
+	2800 2050 3150 2050
+Wire Wire Line
+	6550 1200 6550 1250
+Wire Wire Line
+	1750 750  2050 750 
+Wire Wire Line
+	2050 750  2350 750 
+Wire Wire Line
+	7400 5250 7400 5400
+Wire Wire Line
+	7400 5650 7400 5700
+Wire Wire Line
+	1050 6450 1050 6550
+Wire Wire Line
+	1050 6550 1050 6650
+Wire Wire Line
+	1050 6650 1050 6750
+Wire Wire Line
+	1050 6750 1050 6800
+Wire Wire Line
+	1950 5650 1950 5700
+Wire Wire Line
+	7050 5900 7100 5900
+Wire Wire Line
+	8650 5900 8700 5900
+Wire Wire Line
+	6650 5900 6700 5900
+Wire Wire Line
+	9750 2850 9850 2850
+Wire Wire Line
+	5000 2450 5000 2550
+Wire Wire Line
+	3450 3150 3550 3150
+Wire Wire Line
+	3900 3150 4150 3150
+Wire Wire Line
+	1550 3150 1650 3150
+Wire Wire Line
+	2000 3150 2250 3150
+$EndSCHEMATC

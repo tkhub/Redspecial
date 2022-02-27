@@ -1,0 +1,990 @@
+情報: ネットリストファイル "C:\home\Dropbox\ROBO\project_kagura3.0\circuit\kagura.net"を読み込んでいます。
+
+情報: コンポーネントとフットプリントの関連付けにリファレンスを使用
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C201:/5C051E88/5C089481:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C202:/5C051E88/5C0878D9:Capacitors_SMD:C_1210_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C203:/5C051E88/5C089887:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C204:/5C051E88/5C10DBEA:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C205:/5C051E88/5C087769:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C206:/5C051E88/5C07CF1B:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C207:/5C051E88/5C07CE0D:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C208:/5C051E88/5C843FB4:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C209:/5C051E88/5C73CAE6:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C210:/5C051E88/5C73F393:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C211:/5C051E88/5C088B64:Capacitors_SMD:C_1210_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C212:/5C051E88/5C053C7E:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C213:/5C051E88/5C10DAF0:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C214:/5C051E88/5C11A94D:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C215:/5C051E88/5C10A5E6:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C216:/5C051E88/5C115C61:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C217:/5C051E88/5C39C9BE:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C218:/5C051E88/5C053C9A:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C219:/5C051E88/5C053CA1:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C220:/5C051E88/5C10A5FE:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C221:/5C051E88/5C10A604:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C222:/5C051E88/5C053D23:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C223:/5C051E88/5C053D2A:Capacitors_SMD:C_1206_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C224:/5C051E88/5C10A680:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C225:/5C051E88/5C10A686:Capacitors_SMD:C_1206_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C226:/5C051E88/5C10DC02:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C227:/5C051E88/5C10DB08:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C228:/5C051E88/5C10DC08:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C229:/5C051E88/5C10DB0E:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C230:/5C051E88/5C10DC8D:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C231:/5C051E88/5C10DB93:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C232:/5C051E88/5C10DC93:Capacitors_SMD:C_1206_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C233:/5C051E88/5C10DB99:Capacitors_SMD:C_1206_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C234:/5C051E88/5C80C154:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C235:/5C051E88/5C80C15A:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C236:/5C051E88/5C80630C:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C237:/5C051E88/5C8093D9:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C238:/5C051E88/5C810C37:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C239:/5C051E88/5C810C3D:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C240:/5C051E88/5C7547A9:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C241:/5C051E88/5C75AC9F:Capacitors_ThroughHole:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C242:/5C051E88/5C810E4B:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C243:/5C051E88/5C810E51:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C244:/5C051E88/5C8130DF:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C245:/5C051E88/5C8130E5:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C246:/5C051E88/5C713027:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C247:/5C051E88/5C714ECD:Capacitors_ThroughHole:CP_Radial_D10.0mm_P5.00mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C248:/5C051E88/5C813C87:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C249:/5C051E88/5C813C8D:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C250:/5C051E88/5C813C63:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C251:/5C051E88/5C813C69:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C252:/5C051E88/5C715CCB:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C253:/5C051E88/5C813EED:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C254:/5C051E88/5C813EF3:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C255:/5C051E88/5C813EC9:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C256:/5C051E88/5C813ECF:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C257:/5C051E88/5C816C77:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C258:/5C051E88/5C8270F5:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C259:/5C051E88/5C816C65:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C260:/5C051E88/5C8270EF:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C261:/5C051E88/5C817A5D:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C262:/5C051E88/5C817A63:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C263:/5C051E88/5C81F68E:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C264:/5C051E88/5C82206B:Capacitors_SMD:CP_Elec_6.3x5.8"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C265:/5C051E88/5C822375:Capacitors_SMD:CP_Elec_6.3x5.8"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C266:/5C051E88/5C824B9F:Capacitors_SMD:CP_Elec_6.3x5.8"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C267:/5C051E88/5CC0259A:Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C268:/5C051E88/5CC0206B:Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C301:/5C0563B5/5C064F62:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C302:/5C0563B5/5C05BE4B:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C303:/5C0563B5/5C056B51:Capacitors_SMD:CP_Elec_6.3x7.7"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C304:/5C0563B5/5C061905:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C305:/5C0563B5/5C056D17:Capacitors_SMD:C_1812"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C306:/5C0563B5/5C7BC45C:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C307:/5C0563B5/5C7BBD11:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C308:/5C0563B5/5C7BBDCD:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C309:/5C0563B5/5C058248:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C310:/5C0563B5/5C056AD7:Capacitors_SMD:CP_Elec_6.3x7.7"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C311:/5C0563B5/5C06892E:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C312:/5C0563B5/5C056DA2:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C313:/5C0563B5/5C0687EB:Capacitors_SMD:CP_Elec_6.3x5.8"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C314:/5C0563B5/5CC29D42:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C315:/5C0563B5/5C05A0BA:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C316:/5C0563B5/5C05BDD6:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C317:/5C0563B5/5C05BC0F:Capacitors_SMD:CP_Elec_6.3x5.8"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C318:/5C0563B5/5C072B60:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C319:/5C0563B5/5C073097:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C320:/5C0563B5/5C07480A:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C321:/5C0563B5/5C073EC2:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C322:/5C0563B5/5C073E13:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C323:/5C0563B5/5CB7B146:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C324:/5C0563B5/5C077C0F:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C325:/5C0563B5/5C077FAE:Capacitors_SMD:C_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C401:/5C101227/5C7D56B5:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C402:/5C101227/5CBF8D50:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C403:/5C101227/5C790222:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C404:/5C101227/5C7CF5B9:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C405:/5C101227/5C7585C9:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C406:/5C101227/5CBF7505:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C407:/5C101227/5C758665:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C408:/5C101227/5C793A79:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C501:/5C722B93/5C7B1E64:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C502:/5C722B93/5C7BA4BE:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C503:/5C722B93/5C7231D6:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C504:/5C722B93/5C7BA764:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C505:/5C722B93/5C7BAA3D:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C506:/5C722B93/5C7BA8CF:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C507:/5C722B93/5C7BABAC:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C508:/5C722B93/5C7BAF73:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C509:/5C722B93/5C7BAD22:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C510:/5C722B93/5C7495D8:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C511:/5C722B93/5C7BB0EF:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C512:/5C722B93/5C7BB26A:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C513:/5C722B93/5C745C8C:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C514:/5C722B93/5C742B65:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C515:/5C722B93/5C74B575:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C516:/5C722B93/5C749805:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C517:/5C722B93/5C74B6FB:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C518:/5C722B93/5C7458DA:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C519:/5C722B93/5C74B6BB:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C520:/5C722B93/5C74B61D:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C521:/5C722B93/5C7B84E6:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C522:/5C722B93/5C7B7A0B:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C523:/5C722B93/5C7B25AA:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C524:/5C722B93/5C7B2598:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C525:/5C722B93/5C74B705:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C526:/5C722B93/5C7B26C6:Capacitors_SMD:C_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C527:/5C722B93/5C7B26B4:Capacitors_SMD:C_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C528:/5C722B93/5C7B8657:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C529:/5C722B93/5C7B8A83:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C530:/5C722B93/5C7B570A:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C531:/5C722B93/5C7B56F8:Capacitors_SMD:C_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C532:/5C722B93/5C74B6A7:Capacitors_SMD:C_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C533:/5C722B93/5C7B572E:Capacitors_SMD:C_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "C534:/5C722B93/5C7B571C:Capacitors_SMD:C_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D201:/5C051E88/5C10DBD8:Opto-Devices:PhotoDiode_SFH225"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D202:/5C051E88/5C053C69:Opto-Devices:PhotoDiode_SFH225"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D203:/5C051E88/5C0FDD4E:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D204:/5C051E88/5C0FDD48:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D205:/5C051E88/5C086A4B:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D206:/5C051E88/5C10DADE:Opto-Devices:PhotoDiode_SFH225"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D207:/5C051E88/5C0866C4:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D208:/5C051E88/5C10A5D4:Opto-Devices:PhotoDiode_SFH225"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D209:/5C051E88/5C115C9E:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D210:/5C051E88/5C39C9FB:LEDs:LED_D5.0mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D211:/5C051E88/5C115CAC:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D212:/5C051E88/5C39CA09:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D213:/5C051E88/5C053D1B:Diodes_SMD:D_0805"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D214:/5C051E88/5C10DC86:Diodes_SMD:D_0805"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D215:/5C051E88/5C10A679:Diodes_SMD:D_0805"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D216:/5C051E88/5C10DB8C:Diodes_SMD:D_0805"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D301:/5C0563B5/5C056BC4:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D302:/5C0563B5/5C798186:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D401:/5C101227/5CBBD05A:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D402:/5C101227/5CBBD154:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D403:/5C101227/5C79F6E0:LEDs:LED_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D501:/5C722B93/5CBAD5DB:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D502:/5C722B93/5C72551D:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D503:/5C722B93/5CBAE782:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D504:/5C722B93/5CBB0210:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D505:/5C722B93/5C742B88:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D506:/5C722B93/5CBAEF32:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D507:/5C722B93/5CBB0C67:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D508:/5C722B93/5C74B598:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D509:/5C722B93/5CBB17D0:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D510:/5C722B93/5CBB2EF4:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D511:/5C722B93/5C74B640:LEDs:LED_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "D512:/5C722B93/5CBB2458:Diodes_SMD:D_1206"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "F301:/5C0563B5/5C0565AB:Fuse_Holders_and_Fuses:Fuse_SMD2920"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "IC301:/5C0563B5/5C0579B8:org_aki:M78AR-1"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J201:/5C051E88/5C742FF6:Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J202:/5C051E88/5C747731:Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J203:/5C051E88/5C10DC3C:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J204:/5C051E88/5C0828DF:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J205:/5C051E88/5C053CD1:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J206:/5C051E88/5C10DB42:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J207:/5C051E88/5C083285:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J208:/5C051E88/5C10A632:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J209:/5C051E88/5C8EBDB6:Pin_Headers:Pin_Header_Straight_2x02_Pitch1.27mm_SMD"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J210:/5C051E88/5C74E010:Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm_SMD"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J211:/5C051E88/5C7F8B81:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J212:/5C051E88/5C7F7F9A:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J213:/5C051E88/5C7F75C7:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J214:/5C051E88/5C053D12:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J215:/5C051E88/5C10A671:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J216:/5C051E88/5C053D3F:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J217:/5C051E88/5C10A69A:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J218:/5C051E88/5C7FBCE6:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J219:/5C051E88/5C7FB385:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J220:/5C051E88/5C10DC7E:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J221:/5C051E88/5C10DB84:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J222:/5C051E88/5C10DCAA:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J223:/5C051E88/5C10DBB0:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J224:/5C051E88/5C7F0B1C:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J225:/5C051E88/5C7F1DD8:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J226:/5C051E88/5C6DBB08:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J227:/5C051E88/5C71FCE9:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J228:/5C051E88/5CB964DA:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J229:/5C051E88/5CB9682C:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J230:/5C051E88/5CB96EB4:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J231:/5C051E88/5CB7954D:Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm_SMD_Pin1Left"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J232:/5C051E88/5CBD87C1:Sockets_BNC:TE_1-84952-0_1x10_P1.0mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J233:/5C051E88/5CB2B705:Sockets_BNC:TE_1-84952-0_1x10_P1.0mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J234:/5C051E88/5CB97522:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J235:/5C051E88/5CB97BA4:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J236:/5C051E88/5CB7A0E7:Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm_SMD_Pin1Left"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J237:/5C051E88/5CBD8AE3:Sockets_BNC:TE_1-84952-0_1x10_P1.0mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J238:/5C051E88/5CB2BC5F:Sockets_BNC:TE_1-84952-0_1x10_P1.0mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J239:/5C051E88/5CB98333:Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J240:/5C051E88/5C6FF2C4:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J241:/5C051E88/5C982D97:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J301:/5C0563B5/5C0563DF:org_con:TR_Mini2P_BAT"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J302:/5C0563B5/5C897D0F:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J303:/5C0563B5/5C897C37:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J304:/5C0563B5/5C89F05F:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J305:/5C0563B5/5C895B4B:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J306:/5C0563B5/5C895E1C:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J307:/5C0563B5/5C896E0C:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J308:/5C0563B5/5C896399:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J309:/5C0563B5/5C89FBA8:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J310:/5C0563B5/5C8A11FA:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J311:/5C0563B5/5C897674:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J312:/5C0563B5/5C896BCF:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J313:/5C0563B5/5C89A27D:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J314:/5C0563B5/5C89A571:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J401:/5C101227/5C758582:Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J402:/5C101227/5C837DDE:Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J403:/5C101227/5CBE4E00:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J404:/5C101227/5CBE4F3C:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J405:/5C101227/5C7E6E62:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J406:/5C101227/5C7E66DE:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J407:/5C101227/5C7E646D:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J408:/5C101227/5C8E64D4:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J409:/5C101227/5C8E70DA:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J410:/5C101227/5C8E72E8:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J411:/5C101227/5C8E7BE9:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J412:/5C101227/5C8E94E8:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J413:/5C101227/5C8E9BAC:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J414:/5C101227/5C7A03B0:Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J415:/5C101227/5C758109:Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J416:/5C101227/5C758110:Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J501:/5C722B93/5C80428B:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J502:/5C722B93/5C804CD8:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J503:/5C722B93/5C7FF0DB:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J504:/5C722B93/5C803026:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J505:/5C722B93/5C7FE8CF:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J506:/5C722B93/5C7FEA6E:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J507:/5C722B93/5C805312:Connect:Pin_d1.0mm_L10.0mm_LooseFit"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J508:/5C722B93/5C8000B6:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J509:/5C722B93/5C8075BC:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J510:/5C722B93/5C800DC2:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J511:/5C722B93/5C80235D:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J512:/5C722B93/5C806C53:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J513:/5C722B93/5C8063D0:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J514:/5C722B93/5C74A4FE:Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J515:/5C722B93/5C808A3C:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J516:/5C722B93/5C82A872:Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J517:/5C722B93/5C80998A:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J518:/5C722B93/5C808E2B:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "J519:/5C722B93/5C74B723:Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "L301:/5C0563B5/5C063F14:Resistors_SMD:R_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q201:/5C051E88/5C080C36:TO_SOT_Packages_SMD:SC-59_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q202:/5C051E88/5C97B0AC:TO_SOT_Packages_SMD:TO-252-2"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q301:/5C0563B5/5C97C3A1:TO_SOT_Packages_SMD:TO-252-2"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q401:/5C101227/5C79CF92:TO_SOT_Packages_SMD:SOT-23_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q402:/5C101227/5C79D027:TO_SOT_Packages_SMD:SOT-23_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q501:/5C722B93/5C723145:TO_SOT_Packages_SMD:SC-59_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q502:/5C722B93/5C72DFDC:NOPINSMDPKG_Handsolder:PowerPak_SC-70-6"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q503:/5C722B93/5C742B53:TO_SOT_Packages_SMD:SC-59_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q504:/5C722B93/5C74B563:TO_SOT_Packages_SMD:SC-59_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q505:/5C722B93/5C742BB2:NOPINSMDPKG_Handsolder:PowerPak_SC-70-6"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q506:/5C722B93/5C74B5CE:NOPINSMDPKG_Handsolder:PowerPak_SC-70-6"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q507:/5C722B93/5C74B60B:TO_SOT_Packages_SMD:SC-59_Handsoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "Q508:/5C722B93/5C74B664:NOPINSMDPKG_Handsolder:PowerPak_SC-70-6"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R201:/5C051E88/5C08764E:Resistors_SMD:R_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R202:/5C051E88/5C10DBDE:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R203:/5C051E88/5C10DBE4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R204:/5C051E88/5C07C313:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R205:/5C051E88/5C73C8B8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R206:/5C051E88/5C73F38D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R207:/5C051E88/5C07CAF7:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R208:/5C051E88/5C07CC88:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R209:/5C051E88/5C07CD33:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R210:/5C051E88/5C053C70:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R211:/5C051E88/5C053C77:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R212:/5C051E88/5C080543:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R213:/5C051E88/5C10DAE4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R214:/5C051E88/5C10DAEA:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R215:/5C051E88/5C081157:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R216:/5C051E88/5C10A5DA:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R217:/5C051E88/5C10A5E0:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R218:/5C051E88/5C71FB8F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R219:/5C051E88/5C081858:Resistors_SMD:R_0805_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R220:/5C051E88/5C734AA4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R221:/5C051E88/5C720022:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R222:/5C051E88/5C734AAA:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R223:/5C051E88/5C053C8C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R224:/5C051E88/5C053C93:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R225:/5C051E88/5C86BCAA:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R226:/5C051E88/5C10A5F2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R227:/5C051E88/5C115C8C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R228:/5C051E88/5C39C9E9:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R229:/5C051E88/5C053CA8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R230:/5C051E88/5C10A5F8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R231:/5C051E88/5C115CA5:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R232:/5C051E88/5C39CA02:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R233:/5C051E88/5C10A60A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R234:/5C051E88/5C86A701:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R235:/5C051E88/5C053D0A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R236:/5C051E88/5C10A66A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R237:/5C051E88/5C75AA3A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R238:/5C051E88/5C78542D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R239:/5C051E88/5C7D7961:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R240:/5C051E88/5C75B0A2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R241:/5C051E88/5C79B22D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R242:/5C051E88/5C7D9571:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R243:/5C051E88/5C053D4D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R244:/5C051E88/5C75AA40:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R245:/5C051E88/5C75B0A8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R246:/5C051E88/5C10A6A6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R247:/5C051E88/5C10DBF6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R248:/5C051E88/5C10DAFC:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R249:/5C051E88/5C10DBFC:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R250:/5C051E88/5C10DB02:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R251:/5C051E88/5C10DC0E:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R252:/5C051E88/5C88E4FF:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R253:/5C051E88/5C88EFE2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R254:/5C051E88/5C10DB14:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R255:/5C051E88/5C10DC77:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R256:/5C051E88/5C737CC8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R257:/5C051E88/5C7381A8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R258:/5C051E88/5C739663:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R259:/5C051E88/5C10DB7D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R260:/5C051E88/5C731859:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R261:/5C051E88/5C10DCB6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R262:/5C051E88/5C7A636F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R263:/5C051E88/5C10DBBC:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R264:/5C051E88/5C7511F4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R265:/5C051E88/5C6FB190:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R266:/5C051E88/5C6FDC76:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R267:/5C051E88/5C7183FA:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R268:/5C051E88/5C71A88F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R269:/5C051E88/5C753ECE:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R270:/5C051E88/5C7543FA:Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R271:/5C051E88/5C6FB92F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R272:/5C051E88/5C71157D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R273:/5C051E88/5C71202C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R274:/5C051E88/5C712E1A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R275:/5C051E88/5C71EE8A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R276:/5C051E88/5C7118D2:Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R277:/5C051E88/5C8F4B89:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R278:/5C051E88/5CB46F28:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R279:/5C051E88/5C70358F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R280:/5C051E88/5C6FF2A1:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R281:/5C051E88/5C6FF2A8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R282:/5C051E88/5C704456:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R283:/5C051E88/5C7A326E:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R284:/5C051E88/5C7C8DF1:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R285:/5C051E88/5C7A3882:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R286:/5C051E88/5C79E07C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R287:/5C051E88/5C79E5B2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R288:/5C051E88/5C6FF291:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R301:/5C0563B5/5CB3533C:Resistors_SMD:R_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R302:/5C0563B5/5C056B7A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R303:/5C0563B5/5C0615DF:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R304:/5C0563B5/5C05754D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R305:/5C0563B5/5C058DD5:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R306:/5C0563B5/5C058FD6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R307:/5C0563B5/5C05EBD9:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R308:/5C0563B5/5C05A894:Resistors_SMD:R_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R309:/5C0563B5/5C05EEE0:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R310:/5C0563B5/5C058160:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R311:/5C0563B5/5C05833F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R312:/5C0563B5/5C05B766:Resistors_SMD:R_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R313:/5C0563B5/5C05A0D1:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R314:/5C0563B5/5C05A0D7:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R315:/5C0563B5/5C05A0B4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R316:/5C0563B5/5C05A0C0:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R317:/5C0563B5/5C06B708:Resistors_SMD:R_0402_NoSilk"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R318:/5C0563B5/5C0741F2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R319:/5C0563B5/5C0740D2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R320:/5C0563B5/5C073C3C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R321:/5C0563B5/5C073D89:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R401:/5C101227/5C758596:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R402:/5C101227/5C78FC7A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R403:/5C101227/5CBF8D4A:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R404:/5C101227/5C75859D:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R405:/5C101227/5C78FDE5:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R406:/5C101227/5C7582EB:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R407:/5C101227/5CBF8D44:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R408:/5C101227/5C7582E4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R409:/5C101227/5C7582DD:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R410:/5C101227/5C7582F2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R411:/5C101227/5C7D16E1:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R412:/5C101227/5C7D27C3:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R413:/5C101227/5C7D4A89:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R414:/5C101227/5CBF6FAE:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R415:/5C101227/5CBF6E19:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R416:/5C101227/5C758578:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R417:/5C101227/5CBBDA7C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R418:/5C101227/5CBBDCED:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R419:/5C101227/5C758446:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R420:/5C101227/5C75845B:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R421:/5C101227/5C79E189:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R422:/5C101227/5C7D8114:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R423:/5C101227/5C79FF55:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R424:/5C101227/5C7A0610:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R425:/5C101227/5C79E978:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R426:/5C101227/5C7D8DE5:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R427:/5C101227/5C79F4D7:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R428:/5C101227/5CBE21C6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R501:/5C722B93/5C7A2F52:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R502:/5C722B93/5C7A3291:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R503:/5C722B93/5C7A33BE:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R504:/5C722B93/5C7A30C1:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R505:/5C722B93/5C72A694:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R506:/5C722B93/5C72A6F8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R507:/5C722B93/5C72A816:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R508:/5C722B93/5C7231A3:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R509:/5C722B93/5C723162:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R510:/5C722B93/5C725600:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R511:/5C722B93/5C7252EB:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R512:/5C722B93/5C7A59ED:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R513:/5C722B93/5C7A59F9:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R514:/5C722B93/5C72E658:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R515:/5C722B93/5C72E6C1:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R516:/5C722B93/5C7A59FF:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R517:/5C722B93/5C7A59F3:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R518:/5C722B93/5C745C86:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R519:/5C722B93/5C7420D5:Resistors_SMD:R_2512"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R520:/5C722B93/5C72A887:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R521:/5C722B93/5C74B5B6:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R522:/5C722B93/5C742BAC:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R523:/5C722B93/5C74B5BC:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R524:/5C722B93/5C74B5C2:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R525:/5C722B93/5C742B5F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R526:/5C722B93/5C742B59:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R527:/5C722B93/5C74B56F:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R528:/5C722B93/5C74B569:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R529:/5C722B93/5C742B94:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R530:/5C722B93/5C742B80:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R531:/5C722B93/5C74B5A4:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R532:/5C722B93/5C74B590:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R533:/5C722B93/5C742BBE:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R534:/5C722B93/5C742BC4:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R535:/5C722B93/5C74B5DA:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R536:/5C722B93/5C74B5E0:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R537:/5C722B93/5C742BDE:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R538:/5C722B93/5C74B6B5:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R539:/5C722B93/5C74B601:Resistors_SMD:R_2512"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R540:/5C722B93/5C74B5C8:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R541:/5C722B93/5C74B65E:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R542:/5C722B93/5C74B617:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R543:/5C722B93/5C74B611:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R544:/5C722B93/5C74B64C:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R545:/5C722B93/5C74B638:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R546:/5C722B93/5C74B670:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R547:/5C722B93/5C74B676:Resistors_SMD:R_1210"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "R548:/5C722B93/5C74B690:Resistors_SMD:R_0603_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV201:/5C051E88/5C115C85:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV202:/5C051E88/5C39C9E2:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV203:/5C051E88/5C053D46:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV204:/5C051E88/5C10A6A0:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV205:/5C051E88/5C10DCB0:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "RV206:/5C051E88/5C10DBB6:Potentiometers:Potentiometer_Trimmer-EVM3E"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "SW301:/5C0563B5/5C971E76:org_SWCONN:SW_TGL_DPDT"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "SW401:/5C101227/5C7582D6:Buttons_Switches_SMD:SW_SPST_PTS810"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "SW402:/5C101227/5C7582AC:Buttons_Switches_SMD:SW_SPST_PTS810"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "SW403:/5C101227/5C7582A5:Buttons_Switches_SMD:SW_SPST_PTS810"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "SW404:/5C101227/5C75829E:Buttons_Switches_SMD:SW_SPST_PTS810"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U201:/5C051E88/5C053C62:Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U202:/5C051E88/5C05526E:Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U203:/5C051E88/5CC6284B:Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U204:/5C051E88/5C115C5A:sensors:S7136_HOLE"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U205:/5C051E88/5C39C9B7:sensors:S7136_HOLE"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U206:/5C051E88/5C838B16:Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U207:/5C051E88/5C87B77E:Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U208:/5C051E88/5C72F066:Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U209:/5C051E88/5C719FEE:Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U210:/5C051E88/5C743060:Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U211:/5C051E88/5C6F2288:Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U212:/5C051E88/5CC5E4C6:Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U301:/5C0563B5/5CB64037:Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U302:/5C0563B5/5CB64D8D:TO_SOT_Packages_SMD:SOT-23-5_HandSoldering"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U303:/5C0563B5/5C0725EF:NOPINSMDPKG_Handsolder:DFN-18-1EP_3x5mm_Pitch0.5mm_HAND"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U401:/5C101227/5C7CD352:NOPINSMDPKG_Handsolder:QFN-20-4_3x3mm_Pitch0.5mm_HND"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U402:/5C101227/5C75838E:Housings_DIP:DIP-8_W10.16mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U501:/5C722B93/5C7A2354:Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "U502:/5C722B93/5C72A341:Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "VR201:/5C051E88/5C716A7C:Potentiometers:Potentiometer_Trimmer_Bourns_3296W"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "VR202:/5C051E88/5C6DCAB1:Potentiometers:Potentiometer_Trimmer_Bourns_3296W"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "VR203:/5C051E88/5C6DE18D:Potentiometers:Potentiometer_Trimmer_Bourns_3296W"。
+
+情報: ネットリストよりコンポーネントとフットプリントをチェックしています "VR204:/5C051E88/5C6FF2D0:Potentiometers:Potentiometer_Trimmer_Bourns_3296W"。
+
